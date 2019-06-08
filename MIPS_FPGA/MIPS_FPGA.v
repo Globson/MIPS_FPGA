@@ -150,7 +150,7 @@ Door_BNE_BEQ Door1(.branch(branch),.flag(FlagZero),.out(Door_Out));
 
 MUX_32b mux32b_4(.controle(Door_Out),.entrada1(Saida_Somador4),.entrada2(Somador2_Out),.saida(NextPC));
 
-Mem_Exibi exibe(.resultadoALU(ALUResult),.Clk(clk),.proximo(KEY[2]),.saida(saida_Memoria_Exibe));
+Mem_Exibi exibe(.resultadoALU(ALUResult),.Clk(clk),.proximo((~KEY[2])),.saida(saida_Memoria_Exibe));
 
 Conversor_7Seg Conv(.entrada(saida_Memoria_Exibe),.saida1(HEX1),.saida2(HEX0));
 
