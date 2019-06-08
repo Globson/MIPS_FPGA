@@ -1,5 +1,5 @@
 Fitter report for MIPS_FPGA
-Sat Jun  8 17:39:02 2019
+Sat Jun  8 17:43:56 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -69,14 +69,14 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Sat Jun  8 17:39:02 2019       ;
+; Fitter Status                      ; Successful - Sat Jun  8 17:43:56 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; MIPS_FPGA                                   ;
 ; Top-level Entity Name              ; MIPS_FPGA                                   ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 156 / 114,480 ( < 1 % )                     ;
+; Total logic elements               ; 152 / 114,480 ( < 1 % )                     ;
 ;     Total combinational functions  ; 151 / 114,480 ( < 1 % )                     ;
 ;     Dedicated logic registers      ; 64 / 114,480 ( < 1 % )                      ;
 ; Total registers                    ; 64                                          ;
@@ -154,7 +154,7 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
+; Average used               ; 1.01        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
@@ -222,16 +222,16 @@ The pin-out file can be found in /media/grobs/DOC/GitHub Clones/OC1/MIPS_FPGA/MI
 +---------------------------------------------+-----------------------------+
 ; Resource                                    ; Usage                       ;
 +---------------------------------------------+-----------------------------+
-; Total logic elements                        ; 156 / 114,480 ( < 1 % )     ;
-;     -- Combinational with no register       ; 92                          ;
-;     -- Register only                        ; 5                           ;
-;     -- Combinational with a register        ; 59                          ;
+; Total logic elements                        ; 152 / 114,480 ( < 1 % )     ;
+;     -- Combinational with no register       ; 88                          ;
+;     -- Register only                        ; 1                           ;
+;     -- Combinational with a register        ; 63                          ;
 ;                                             ;                             ;
 ; Logic element usage by number of LUT inputs ;                             ;
 ;     -- 4 input functions                    ; 25                          ;
 ;     -- 3 input functions                    ; 42                          ;
 ;     -- <=2 input functions                  ; 84                          ;
-;     -- Register only                        ; 5                           ;
+;     -- Register only                        ; 1                           ;
 ;                                             ;                             ;
 ; Logic elements by mode                      ;                             ;
 ;     -- normal mode                          ; 78                          ;
@@ -260,10 +260,10 @@ The pin-out file can be found in /media/grobs/DOC/GitHub Clones/OC1/MIPS_FPGA/MI
 ; Oscillator blocks                           ; 0 / 1 ( 0 % )               ;
 ; Impedance control blocks                    ; 0 / 4 ( 0 % )               ;
 ; Average interconnect usage (total/H/V)      ; 0.0% / 0.0% / 0.0%          ;
-; Peak interconnect usage (total/H/V)         ; 0.8% / 0.9% / 0.7%          ;
+; Peak interconnect usage (total/H/V)         ; 0.7% / 0.8% / 0.5%          ;
 ; Maximum fan-out                             ; 34                          ;
 ; Highest non-global fan-out                  ; 34                          ;
-; Total fan-out                               ; 681                         ;
+; Total fan-out                               ; 677                         ;
 ; Average fan-out                             ; 1.52                        ;
 +---------------------------------------------+-----------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
@@ -277,16 +277,16 @@ The pin-out file can be found in /media/grobs/DOC/GitHub Clones/OC1/MIPS_FPGA/MI
 +---------------------------------------------+------------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                    ; Low                            ;
 ;                                             ;                        ;                                ;
-; Total logic elements                        ; 156 / 114480 ( < 1 % ) ; 0 / 114480 ( 0 % )             ;
-;     -- Combinational with no register       ; 92                     ; 0                              ;
-;     -- Register only                        ; 5                      ; 0                              ;
-;     -- Combinational with a register        ; 59                     ; 0                              ;
+; Total logic elements                        ; 152 / 114480 ( < 1 % ) ; 0 / 114480 ( 0 % )             ;
+;     -- Combinational with no register       ; 88                     ; 0                              ;
+;     -- Register only                        ; 1                      ; 0                              ;
+;     -- Combinational with a register        ; 63                     ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Logic element usage by number of LUT inputs ;                        ;                                ;
 ;     -- 4 input functions                    ; 25                     ; 0                              ;
 ;     -- 3 input functions                    ; 42                     ; 0                              ;
 ;     -- <=2 input functions                  ; 84                     ; 0                              ;
-;     -- Register only                        ; 5                      ; 0                              ;
+;     -- Register only                        ; 1                      ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Logic elements by mode                      ;                        ;                                ;
 ;     -- normal mode                          ; 78                     ; 0                              ;
@@ -313,7 +313,7 @@ The pin-out file can be found in /media/grobs/DOC/GitHub Clones/OC1/MIPS_FPGA/MI
 ;     -- Registered Output Connections        ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Internal Connections                        ;                        ;                                ;
-;     -- Total Connections                    ; 686                    ; 5                              ;
+;     -- Total Connections                    ; 682                    ; 5                              ;
 ;     -- Registered Connections               ; 190                    ; 0                              ;
 ;                                             ;                        ;                                ;
 ; External Connections                        ;                        ;                                ;
@@ -1387,7 +1387,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +-------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+--------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 ; Compilation Hierarchy Node                ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                                                                                                            ; Entity Name         ; Library Name ;
 +-------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+--------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; |MIPS_FPGA                                ; 156 (0)     ; 64 (0)                    ; 0 (0)         ; 104         ; 1    ; 0            ; 0       ; 0         ; 108  ; 0            ; 92 (0)       ; 5 (0)             ; 59 (0)           ; |MIPS_FPGA                                                                                                                     ; MIPS_FPGA           ; work         ;
+; |MIPS_FPGA                                ; 152 (0)     ; 64 (0)                    ; 0 (0)         ; 104         ; 1    ; 0            ; 0       ; 0         ; 108  ; 0            ; 88 (0)       ; 1 (0)             ; 63 (0)           ; |MIPS_FPGA                                                                                                                     ; MIPS_FPGA           ; work         ;
 ;    |Conversor_7Seg:Conv|                  ; 33 (7)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 33 (7)       ; 0 (0)             ; 0 (0)            ; |MIPS_FPGA|Conversor_7Seg:Conv                                                                                                 ; Conversor_7Seg      ; work         ;
 ;       |lpm_divide:Div0|                   ; 5 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 5 (0)        ; 0 (0)             ; 0 (0)            ; |MIPS_FPGA|Conversor_7Seg:Conv|lpm_divide:Div0                                                                                 ; lpm_divide          ; work         ;
 ;          |lpm_divide_0jm:auto_generated|  ; 5 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 5 (0)        ; 0 (0)             ; 0 (0)            ; |MIPS_FPGA|Conversor_7Seg:Conv|lpm_divide:Div0|lpm_divide_0jm:auto_generated                                                   ; lpm_divide_0jm      ; work         ;
@@ -1397,7 +1397,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ;          |lpm_divide_3bm:auto_generated|  ; 21 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 21 (0)       ; 0 (0)             ; 0 (0)            ; |MIPS_FPGA|Conversor_7Seg:Conv|lpm_divide:Mod0|lpm_divide_3bm:auto_generated                                                   ; lpm_divide_3bm      ; work         ;
 ;             |sign_div_unsign_olh:divider| ; 21 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 21 (0)       ; 0 (0)             ; 0 (0)            ; |MIPS_FPGA|Conversor_7Seg:Conv|lpm_divide:Mod0|lpm_divide_3bm:auto_generated|sign_div_unsign_olh:divider                       ; sign_div_unsign_olh ; work         ;
 ;                |alt_u_div_47f:divider|    ; 21 (21)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 21 (21)      ; 0 (0)             ; 0 (0)            ; |MIPS_FPGA|Conversor_7Seg:Conv|lpm_divide:Mod0|lpm_divide_3bm:auto_generated|sign_div_unsign_olh:divider|alt_u_div_47f:divider ; alt_u_div_47f       ; work         ;
-;    |Mem_Exibi:exibe|                      ; 123 (123)   ; 64 (64)                   ; 0 (0)         ; 104         ; 1    ; 0            ; 0       ; 0         ; 0    ; 0            ; 59 (59)      ; 5 (5)             ; 59 (59)          ; |MIPS_FPGA|Mem_Exibi:exibe                                                                                                     ; Mem_Exibi           ; work         ;
+;    |Mem_Exibi:exibe|                      ; 119 (119)   ; 64 (64)                   ; 0 (0)         ; 104         ; 1    ; 0            ; 0       ; 0         ; 0    ; 0            ; 55 (55)      ; 1 (1)             ; 63 (63)          ; |MIPS_FPGA|Mem_Exibi:exibe                                                                                                     ; Mem_Exibi           ; work         ;
 ;       |altsyncram:Mem_rtl_0|              ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 104         ; 1    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |MIPS_FPGA|Mem_Exibi:exibe|altsyncram:Mem_rtl_0                                                                                ; altsyncram          ; work         ;
 ;          |altsyncram_u8c1:auto_generated| ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 104         ; 1    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |MIPS_FPGA|Mem_Exibi:exibe|altsyncram:Mem_rtl_0|altsyncram_u8c1:auto_generated                                                 ; altsyncram_u8c1     ; work         ;
 +-------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+--------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
@@ -1586,16 +1586,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------------------------------------------+-------------------+---------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Control Signals                                                                                                                                                          ;
-+------------------------------+---------------------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
-; Name                         ; Location            ; Fan-Out ; Usage                      ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
-+------------------------------+---------------------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
-; CLOCK_50                     ; PIN_Y2              ; 33      ; Clock                      ; yes    ; Global Clock         ; GCLK4            ; --                        ;
-; KEY[2]                       ; PIN_N21             ; 33      ; Clock                      ; no     ; --                   ; --               ; --                        ;
-; Mem_Exibi:exibe|LessThan0~10 ; LCCOMB_X103_Y40_N10 ; 33      ; Clock enable, Write enable ; no     ; --                   ; --               ; --                        ;
-; Mem_Exibi:exibe|LessThan1~10 ; LCCOMB_X105_Y41_N24 ; 1       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-+------------------------------+---------------------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Control Signals                                                                                                                                                         ;
++------------------------------+--------------------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
+; Name                         ; Location           ; Fan-Out ; Usage                      ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
++------------------------------+--------------------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
+; CLOCK_50                     ; PIN_Y2             ; 33      ; Clock                      ; yes    ; Global Clock         ; GCLK4            ; --                        ;
+; KEY[2]                       ; PIN_N21            ; 33      ; Clock                      ; no     ; --                   ; --               ; --                        ;
+; Mem_Exibi:exibe|LessThan0~10 ; LCCOMB_X99_Y34_N30 ; 33      ; Clock enable, Write enable ; no     ; --                   ; --               ; --                        ;
+; Mem_Exibi:exibe|LessThan1~10 ; LCCOMB_X99_Y34_N24 ; 1       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
++------------------------------+--------------------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1603,7 +1603,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 ; Name     ; Location ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +----------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; CLOCK_50 ; PIN_Y2   ; 33      ; 10                                   ; Global Clock         ; GCLK4            ; --                        ;
+; CLOCK_50 ; PIN_Y2   ; 33      ; 11                                   ; Global Clock         ; GCLK4            ; --                        ;
 +----------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 
 
@@ -1612,7 +1612,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------------------------------------------------+------+------------------+-------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+------+------+-----------------+----------------------+------------------------+------------------------+----------+------------------------+---------------+
 ; Name                                                                           ; Type ; Mode             ; Clock Mode  ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Port A Input Registers ; Port A Output Registers ; Port B Input Registers ; Port B Output Registers ; Size ; Implementation Port A Depth ; Implementation Port A Width ; Implementation Port B Depth ; Implementation Port B Width ; Implementation Bits ; M9Ks ; MIF  ; Location        ; Mixed Width RDW Mode ; Port A RDW Mode        ; Port B RDW Mode        ; ECC Mode ; ECC Pipeline Registers ; Fits in MLABs ;
 +--------------------------------------------------------------------------------+------+------------------+-------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+------+------+-----------------+----------------------+------------------------+------------------------+----------+------------------------+---------------+
-; Mem_Exibi:exibe|altsyncram:Mem_rtl_0|altsyncram_u8c1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; Dual Clocks ; 26           ; 4            ; 26           ; 4            ; yes                    ; no                      ; yes                    ; yes                     ; 104  ; 26                          ; 4                           ; 26                          ; 4                           ; 104                 ; 1    ; None ; M9K_X104_Y41_N0 ; Don't care           ; New data with NBE Read ; New data with NBE Read ; Off      ; No                     ; No - Unknown  ;
+; Mem_Exibi:exibe|altsyncram:Mem_rtl_0|altsyncram_u8c1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; Dual Clocks ; 26           ; 4            ; 26           ; 4            ; yes                    ; no                      ; yes                    ; yes                     ; 104  ; 26                          ; 4                           ; 26                          ; 4                           ; 104                 ; 1    ; None ; M9K_X104_Y34_N0 ; Don't care           ; New data with NBE Read ; New data with NBE Read ; Off      ; No                     ; No - Unknown  ;
 +--------------------------------------------------------------------------------+------+------------------+-------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+------+------+-----------------+----------------------+------------------------+------------------------+----------+------------------------+---------------+
 Note: Fitter may spread logical memories into multiple blocks to improve timing. The actual required RAM blocks can be found in the Fitter Resource Usage section.
 
@@ -1622,33 +1622,33 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 +-----------------------+-------------------------+
 ; Routing Resource Type ; Usage                   ;
 +-----------------------+-------------------------+
-; Block interconnects   ; 166 / 342,891 ( < 1 % ) ;
-; C16 interconnects     ; 7 / 10,120 ( < 1 % )    ;
-; C4 interconnects      ; 56 / 209,544 ( < 1 % )  ;
-; Direct links          ; 90 / 342,891 ( < 1 % )  ;
+; Block interconnects   ; 159 / 342,891 ( < 1 % ) ;
+; C16 interconnects     ; 10 / 10,120 ( < 1 % )   ;
+; C4 interconnects      ; 65 / 209,544 ( < 1 % )  ;
+; Direct links          ; 78 / 342,891 ( < 1 % )  ;
 ; Global clocks         ; 1 / 20 ( 5 % )          ;
 ; Local interconnects   ; 91 / 119,088 ( < 1 % )  ;
-; R24 interconnects     ; 9 / 9,963 ( < 1 % )     ;
-; R4 interconnects      ; 66 / 289,782 ( < 1 % )  ;
+; R24 interconnects     ; 8 / 9,963 ( < 1 % )     ;
+; R4 interconnects      ; 87 / 289,782 ( < 1 % )  ;
 +-----------------------+-------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Logic Elements                                                         ;
 +---------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 13.00) ; Number of LABs  (Total = 12) ;
+; Number of Logic Elements  (Average = 12.67) ; Number of LABs  (Total = 12) ;
 +---------------------------------------------+------------------------------+
-; 1                                           ; 1                            ;
+; 1                                           ; 2                            ;
 ; 2                                           ; 0                            ;
 ; 3                                           ; 0                            ;
-; 4                                           ; 1                            ;
+; 4                                           ; 0                            ;
 ; 5                                           ; 0                            ;
 ; 6                                           ; 0                            ;
 ; 7                                           ; 0                            ;
 ; 8                                           ; 0                            ;
 ; 9                                           ; 0                            ;
-; 10                                          ; 0                            ;
-; 11                                          ; 1                            ;
+; 10                                          ; 1                            ;
+; 11                                          ; 0                            ;
 ; 12                                          ; 1                            ;
 ; 13                                          ; 0                            ;
 ; 14                                          ; 0                            ;
@@ -1660,9 +1660,9 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 0.83) ; Number of LABs  (Total = 12) ;
+; LAB-wide Signals  (Average = 0.67) ; Number of LABs  (Total = 12) ;
 +------------------------------------+------------------------------+
-; 1 Clock                            ; 8                            ;
+; 1 Clock                            ; 6                            ;
 ; 1 Clock enable                     ; 2                            ;
 +------------------------------------+------------------------------+
 
@@ -1670,14 +1670,14 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 +-----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 17.83) ; Number of LABs  (Total = 12) ;
+; Number of Signals Sourced  (Average = 17.50) ; Number of LABs  (Total = 12) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 1                            ;
+; 1                                            ; 2                            ;
 ; 2                                            ; 0                            ;
 ; 3                                            ; 0                            ;
 ; 4                                            ; 0                            ;
-; 5                                            ; 1                            ;
+; 5                                            ; 0                            ;
 ; 6                                            ; 0                            ;
 ; 7                                            ; 0                            ;
 ; 8                                            ; 0                            ;
@@ -1685,13 +1685,13 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 ; 10                                           ; 0                            ;
 ; 11                                           ; 1                            ;
 ; 12                                           ; 0                            ;
-; 13                                           ; 0                            ;
+; 13                                           ; 1                            ;
 ; 14                                           ; 0                            ;
 ; 15                                           ; 1                            ;
-; 16                                           ; 1                            ;
-; 17                                           ; 2                            ;
-; 18                                           ; 0                            ;
-; 19                                           ; 1                            ;
+; 16                                           ; 2                            ;
+; 17                                           ; 0                            ;
+; 18                                           ; 1                            ;
+; 19                                           ; 0                            ;
 ; 20                                           ; 0                            ;
 ; 21                                           ; 0                            ;
 ; 22                                           ; 0                            ;
@@ -1700,50 +1700,52 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 ; 25                                           ; 0                            ;
 ; 26                                           ; 0                            ;
 ; 27                                           ; 1                            ;
-; 28                                           ; 2                            ;
-; 29                                           ; 0                            ;
-; 30                                           ; 1                            ;
+; 28                                           ; 0                            ;
+; 29                                           ; 1                            ;
+; 30                                           ; 0                            ;
+; 31                                           ; 1                            ;
+; 32                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
 +---------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                         ;
 +--------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 10.67) ; Number of LABs  (Total = 12) ;
+; Number of Signals Sourced Out  (Average = 10.17) ; Number of LABs  (Total = 12) ;
 +--------------------------------------------------+------------------------------+
 ; 0                                                ; 0                            ;
-; 1                                                ; 1                            ;
-; 2                                                ; 1                            ;
-; 3                                                ; 0                            ;
+; 1                                                ; 2                            ;
+; 2                                                ; 0                            ;
+; 3                                                ; 1                            ;
 ; 4                                                ; 0                            ;
 ; 5                                                ; 0                            ;
-; 6                                                ; 2                            ;
+; 6                                                ; 1                            ;
 ; 7                                                ; 0                            ;
 ; 8                                                ; 0                            ;
 ; 9                                                ; 0                            ;
-; 10                                               ; 0                            ;
-; 11                                               ; 2                            ;
+; 10                                               ; 1                            ;
+; 11                                               ; 1                            ;
 ; 12                                               ; 1                            ;
 ; 13                                               ; 1                            ;
 ; 14                                               ; 0                            ;
 ; 15                                               ; 0                            ;
-; 16                                               ; 2                            ;
-; 17                                               ; 2                            ;
+; 16                                               ; 3                            ;
+; 17                                               ; 1                            ;
 +--------------------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 11.42) ; Number of LABs  (Total = 12) ;
+; Number of Distinct Inputs  (Average = 10.92) ; Number of LABs  (Total = 12) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
 ; 1                                            ; 0                            ;
-; 2                                            ; 1                            ;
-; 3                                            ; 0                            ;
+; 2                                            ; 0                            ;
+; 3                                            ; 4                            ;
 ; 4                                            ; 1                            ;
-; 5                                            ; 1                            ;
-; 6                                            ; 1                            ;
+; 5                                            ; 0                            ;
+; 6                                            ; 0                            ;
 ; 7                                            ; 0                            ;
 ; 8                                            ; 1                            ;
 ; 9                                            ; 0                            ;
@@ -1751,14 +1753,24 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 ; 11                                           ; 1                            ;
 ; 12                                           ; 0                            ;
 ; 13                                           ; 0                            ;
-; 14                                           ; 1                            ;
+; 14                                           ; 0                            ;
 ; 15                                           ; 0                            ;
-; 16                                           ; 2                            ;
-; 17                                           ; 2                            ;
+; 16                                           ; 3                            ;
+; 17                                           ; 1                            ;
 ; 18                                           ; 0                            ;
 ; 19                                           ; 0                            ;
 ; 20                                           ; 0                            ;
-; 21                                           ; 1                            ;
+; 21                                           ; 0                            ;
+; 22                                           ; 0                            ;
+; 23                                           ; 0                            ;
+; 24                                           ; 0                            ;
+; 25                                           ; 0                            ;
+; 26                                           ; 0                            ;
+; 27                                           ; 0                            ;
+; 28                                           ; 0                            ;
+; 29                                           ; 0                            ;
+; 30                                           ; 0                            ;
+; 31                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
@@ -1984,7 +1996,7 @@ This will disable optimization of problematic paths and expose them for further 
 +-----------------+-----------------------+-------------------+
 ; Source Register ; Destination Register  ; Delay Added in ns ;
 +-----------------+-----------------------+-------------------+
-; KEY[2]          ; Mem_Exibi:exibe|j[31] ; 0.139             ;
+; KEY[2]          ; Mem_Exibi:exibe|j[31] ; 0.200             ;
 +-----------------+-----------------------+-------------------+
 Note: This table only shows the top 1 path(s) that have the largest delay added for hold.
 
@@ -2027,7 +2039,7 @@ Info (176353): Automatically promoted node CLOCK_50~input (placed in PIN Y2 (CLK
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176218): Packed 4 registers into blocks of type Block RAM
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -2036,16 +2048,16 @@ Info (170137): Fitter placement was successful
 Info (170192): Fitter placement operations ending: elapsed time is 00:00:05
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X104_Y37 to location X115_Y48
+    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X92_Y24 to location X103_Y36
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.15 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
+Info (11888): Total time spent on timing analysis during the Fitter is 0.25 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
 Warning (169177): 25 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing Cyclone IV E Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
     Info (169178): Pin CLOCK2_50 uses I/O standard 3.3-V LVTTL at AG14 File: /media/grobs/DOC/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/MIPS_FPGA.v Line: 59
     Info (169178): Pin CLOCK3_50 uses I/O standard 3.3-V LVTTL at AG15 File: /media/grobs/DOC/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/MIPS_FPGA.v Line: 60
@@ -2074,10 +2086,10 @@ Warning (169177): 25 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 
     Info (169178): Pin CLOCK_50 uses I/O standard 3.3-V LVTTL at Y2 File: /media/grobs/DOC/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/MIPS_FPGA.v Line: 58
 Info (144001): Generated suppressed messages file /media/grobs/DOC/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/MIPS_FPGA.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 1705 megabytes
-    Info: Processing ended: Sat Jun  8 17:39:02 2019
-    Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:00:27
+    Info: Peak virtual memory: 1702 megabytes
+    Info: Processing ended: Sat Jun  8 17:43:57 2019
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:34
 
 
 +----------------------------+
