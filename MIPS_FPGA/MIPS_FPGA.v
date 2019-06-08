@@ -82,10 +82,10 @@ output		     [6:0]		HEX7;
 //=======================================================
 //  REG/WIRE declarations
 //=======================================================
-reg clk = CLOCK_50;
+wire clk = CLOCK_50;
 reg [31:0] PCIn = 0;
 wire [31:0] PCOut;
-wire Reset = ~(KEY[3])
+wire Reset = ~(KEY[3]);
 wire [31:0] Saida_Somador4;
 wire [31:0] Instrucao;
 wire [1:0] branch;

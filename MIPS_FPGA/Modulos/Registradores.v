@@ -9,7 +9,7 @@ module Registradores (clk,RegWrite,ReadReg1,ReadReg2,WriteReg,WriteData,ReadData
   output reg [31:0]ReadData2;
   reg [31:0]Regs[0:31];
 
-  always @ (negedge clk) begin
+always @ (posedge clk) begin
     if (reset) begin
       Regs[0] <= 0;   //$zero
       Regs[1] <= 0;   //at
@@ -44,24 +44,26 @@ module Registradores (clk,RegWrite,ReadReg1,ReadReg2,WriteReg,WriteData,ReadData
       Regs[30] <= 0;  //s8
       Regs[31] <= 0;  //ra
     end
-  end
+    else begin
+      if(RegWrite)begin
+           Regs[WriteReg] <= WriteData;
+      end
 
-  /*initial begin
-      $monitor("\n\t-->Alteração detectada! \n$t0: %d \n$t1: %d\n$t2: %d\n$t3: %d\n$t4: %d\n$t5: %d\n$t6: %d\n$t7: %d\n$s0: %d \n$s1: %d\n$s2: %d\n$s3: %d\n$s4: %d\n$s5: %d\n$s6: %d\n$s7: %d",Regs[8],Regs[9],Regs[10],Regs[11],Regs[12],Regs[13],Regs[14],Regs[15],Regs[16],Regs[17],Regs[18],Regs[19],Regs[20],Regs[21],Regs[22],Regs[23]);
-  end*/
+      if(ReadReg1 | ReadReg2)begin
+          ReadData1 <= Regs[ReadReg1];
+          ReadData2 <= Regs[ReadReg2];
+      end
+    end
+end
 
-  always @ ( ReadReg1 or ReadReg2 ) begin
+  /*always @ (ReadReg1 or ReadReg2) begin
     ReadData1 <= Regs[ReadReg1];
     ReadData2 <= Regs[ReadReg2];
   end
 
-  always @ (posedge clk, RegWrite) begin
-      case (RegWrite)
-        0: begin
-          end
-        1: begin
-             Regs[WriteReg] = WriteData;
-          end
-      endcase
-  end
+  always @ (posedge clk) begin
+      if(RegWrite)begin
+             Regs[WriteReg] <= WriteData;
+      end
+  end*/
 endmodule //Registradores

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Jun  8 17:03:06 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : MIPS_FPGA
+Top-level Entity Name : MIPS_FPGA
+Family : Cyclone IV E
+Total logic elements : 0
+    Total combinational functions : 0
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 108
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

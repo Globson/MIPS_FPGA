@@ -5,7 +5,7 @@ module Data_Memory (Clk,Address,WriteData,ReadData,MemRead,MemWrite,reset);
   output reg [31:0]ReadData;
   reg [31:0]MemData[0:31];
 
-always @ (posedge Clk) begin
+always @ (negedge Clk) begin
   if (reset) begin
     MemData[0] <= 0;
     MemData[1] <= 0;
@@ -14,9 +14,9 @@ always @ (posedge Clk) begin
     MemData[4] <= 0;
     MemData[5] <= 0;
     MemData[6] <= 0;
-    MemData[7] <= 666;
+    MemData[7] <= 0; //666
     MemData[8] <= 0;
-    MemData[9] <= 555;
+    MemData[9] <= 0; //555
     MemData[10] <= 0;
     MemData[11] <= 0;
     MemData[12] <= 0;
@@ -31,11 +31,20 @@ always @ (posedge Clk) begin
     MemData[21] <= 0;
     MemData[22] <= 0;
     MemData[23] <= 0;
-  end  
+  end
+  else begin
+    if(MemWrite == 1) begin
+      MemData[Address] <= WriteData;
+    end
+
+    else if(MemRead == 1) begin
+      ReadData <= MemData[Address];
+    end
+  end
 end
 
 
- always @ (negedge Clk) begin
+ /*always @ (negedge Clk) begin
   if(MemWrite == 1) begin
     MemData[Address] <= WriteData;
     end
@@ -43,6 +52,5 @@ end
  else if(MemRead == 1) begin
      ReadData <= MemData[Address];
     end
- end
-
+ end*/
 endmodule //Data_memory2
