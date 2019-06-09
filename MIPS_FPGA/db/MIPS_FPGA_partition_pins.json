@@ -66,6 +66,10 @@
 				{
 					"name" : "CLOCK_50",
 					"strict" : false
+				},
+				{
+					"name" : "KEY[3]",
+					"strict" : false
 				}
 			]
 		}

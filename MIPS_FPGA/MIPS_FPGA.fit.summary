@@ -1,12 +1,12 @@
-Fitter Status : Successful - Sat Jun  8 17:43:56 2019
+Fitter Status : Successful - Sat Jun  8 22:57:30 2019
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : MIPS_FPGA
 Top-level Entity Name : MIPS_FPGA
 Family : Cyclone IV E
 Device : EP4CE115F29C7
 Timing Models : Final
-Total logic elements : 152 / 114,480 ( < 1 % )
-    Total combinational functions : 151 / 114,480 ( < 1 % )
+Total logic elements : 191 / 114,480 ( < 1 % )
+    Total combinational functions : 187 / 114,480 ( < 1 % )
     Dedicated logic registers : 64 / 114,480 ( < 1 % )
 Total registers : 64
 Total pins : 108 / 529 ( 20 % )
