@@ -83,12 +83,10 @@ output		     [6:0]		HEX7;
 //=======================================================
 //  REG/WIRE declarations
 //=======================================================
+wire Reset = ~(KEY[3]);
 wire clk = ~(KEY[0]);
-assign LEDG[6] = Reset;
-assign LEDG[0] = clk;
 reg [31:0] PCIn;
 wire [31:0] PCOut;
-wire Reset = ~(KEY[3]);
 wire [31:0] Saida_Somador4;
 wire [31:0] Instrucao;
 wire [1:0] branch;
@@ -115,6 +113,9 @@ wire Door_Out;
 wire [31:0] NextPC;
 wire [31:0] saida_Memoria_Exibe;
 
+assign LEDG[5:0] = PCOut[5:0];
+assign LEDG[7] = Reset;
+assign LEDG[6] = clk;
 assign LEDR = ALUResult[17:0];
 
 //=======================================================
