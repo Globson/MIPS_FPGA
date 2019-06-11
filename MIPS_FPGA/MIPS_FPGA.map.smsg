@@ -1,1 +1,1 @@
-Warning (10268): Verilog HDL information at PC.v(5): always construct contains both blocking and non-blocking assignments File: /media/grobs/WD DOC/Git Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/PC.v Line: 5
+Warning (10268): Verilog HDL information at PC.v(5): always construct contains both blocking and non-blocking assignments File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/PC.v Line: 5
