@@ -84,7 +84,7 @@ output		     [6:0]		HEX7;
 //  REG/WIRE declarations
 //=======================================================
 wire clk = CLOCK_50;
-reg [31:0] PCIn = 0;
+reg [31:0] PCIn;
 wire [31:0] PCOut;
 wire Reset = ~(KEY[3]);
 wire [31:0] Saida_Somador4;
@@ -152,7 +152,9 @@ MUX_32b mux32b_4(.controle(Door_Out),.entrada1(Saida_Somador4),.entrada2(Somador
 
 Mem_Exibi exibe(.resultadoALU(ALUResult),.Clk(clk),.proximo((~KEY[2])),.saida(saida_Memoria_Exibe),.reset(Reset));
 
-Conversor_7Seg Conv(.entrada(saida_Memoria_Exibe),.saida1(HEX1),.saida2(HEX0));
+//Conversor_7Seg Conv(.entrada(saida_Memoria_Exibe),.saida1(HEX1),.saida2(HEX0));
+
+Conversor_7Seg_Melhorado ConvMe(.entrada(saida_Memoria_Exibe),.display0(HEX0),.display1(HEX1),.display2(HEX2),.display3(HEX3),.display4(HEX4),.display5(HEX5),.display6(HEX6),.display7(HEX7));
 
 
 endmodule
