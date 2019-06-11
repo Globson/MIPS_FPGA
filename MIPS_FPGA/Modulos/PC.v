@@ -4,8 +4,8 @@ module PC (entrada,saida,clk,reset);
   output reg[31:0] saida;
   always @ (posedge clk) begin
     saida = entrada;
-    if(reset)begin
-    saida <= 0;
+    if(reset == 1)begin
+      saida <= 0;
     end
   end
 endmodule //PC

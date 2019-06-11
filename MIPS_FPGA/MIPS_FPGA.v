@@ -83,7 +83,9 @@ output		     [6:0]		HEX7;
 //=======================================================
 //  REG/WIRE declarations
 //=======================================================
-wire clk = CLOCK_50;
+wire clk = ~(KEY[0]);
+assign LEDG[6] = Reset;
+assign LEDG[0] = clk;
 reg [31:0] PCIn;
 wire [31:0] PCOut;
 wire Reset = ~(KEY[3]);
@@ -113,7 +115,7 @@ wire Door_Out;
 wire [31:0] NextPC;
 wire [31:0] saida_Memoria_Exibe;
 
-
+assign LEDR = ALUResult[17:0];
 
 //=======================================================
 //  Structural coding
@@ -156,5 +158,8 @@ Mem_Exibi exibe(.resultadoALU(ALUResult),.Clk(clk),.proximo((~KEY[2])),.saida(sa
 
 Conversor_7Seg_Melhorado ConvMe(.entrada(saida_Memoria_Exibe),.display0(HEX0),.display1(HEX1),.display2(HEX2),.display3(HEX3),.display4(HEX4),.display5(HEX5),.display6(HEX6),.display7(HEX7));
 
+always @ (negedge clk) begin
+	PCIn <= NextPC;
+end
 
 endmodule

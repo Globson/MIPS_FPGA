@@ -9,7 +9,7 @@ module Registradores (clk,RegWrite,ReadReg1,ReadReg2,WriteReg,WriteData,ReadData
   output reg [31:0]ReadData2;
   reg [31:0]Regs[0:31];
 
-always @ (posedge clk) begin
+always @ (*) begin // posedge clock antes
     if (reset) begin
       Regs[0] <= 0;   //$zero
       Regs[1] <= 0;   //at
