@@ -14,9 +14,9 @@ always @ (negedge Clk) begin
     MemData[4] <= 0;
     MemData[5] <= 0;
     MemData[6] <= 0;
-    MemData[7] <= 0; //666
+    MemData[7] <= 666; //666
     MemData[8] <= 0;
-    MemData[9] <= 0; //555
+    MemData[9] <= 555; //555
     MemData[10] <= 0;
     MemData[11] <= 0;
     MemData[12] <= 0;
