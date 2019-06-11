@@ -118,7 +118,7 @@ wire [31:0] saida_Memoria_Exibe;
 //=======================================================
 //  Structural coding
 //=======================================================
-PC pc(.clk(clk),.entrada(PCIn),.saida(PCOut));
+PC pc(.clk(clk),.entrada(PCIn),.saida(PCOut),.reset(Reset));
 
 Somador4 Soma4(.a(PCOut),.saida(Saida_Somador4));
 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MIPS_FPGA
-Mon Jun 10 23:22:25 2019
+Mon Jun 10 23:26:04 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -45,11 +45,10 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  37. altsyncram Parameter Settings by Entity Instance
  38. lpm_mult Parameter Settings by Entity Instance
  39. Port Connectivity Checks: "MUX_32b:mux32b_4"
- 40. Port Connectivity Checks: "PC:pc"
- 41. Post-Synthesis Netlist Statistics for Top Partition
- 42. Elapsed Time Per Partition
- 43. Analysis & Synthesis Messages
- 44. Analysis & Synthesis Suppressed Messages
+ 40. Post-Synthesis Netlist Statistics for Top Partition
+ 41. Elapsed Time Per Partition
+ 42. Analysis & Synthesis Messages
+ 43. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -75,7 +74,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Jun 10 23:22:25 2019       ;
+; Analysis & Synthesis Status        ; Successful - Mon Jun 10 23:26:04 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; MIPS_FPGA                                   ;
 ; Top-level Entity Name              ; MIPS_FPGA                                   ;
@@ -3288,15 +3287,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "PC:pc"                                                                                                                                       ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                      ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
-; reset ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-+-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
-
-
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
@@ -3331,7 +3321,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:18     ;
+; Top            ; 00:00:13     ;
 +----------------+--------------+
 
 
@@ -3341,7 +3331,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Jun 10 23:21:50 2019
+    Info: Processing started: Mon Jun 10 23:25:30 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MIPS_FPGA -c MIPS_FPGA
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -4366,7 +4356,6 @@ Warning (14284): Synthesized away the following node(s):
     Warning (14285): Synthesized away the following DSP element node(s):
         Warning (14320): Synthesized away node "Conversor_7Seg_Melhorado:ConvMe|lpm_mult:Mult4|mult_lgt:auto_generated|mac_mult7" File: /media/grobs/WD DOC/Git Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/mult_lgt.tdf Line: 66
         Warning (14320): Synthesized away node "Conversor_7Seg_Melhorado:ConvMe|lpm_mult:Mult4|mult_lgt:auto_generated|mac_out8" File: /media/grobs/WD DOC/Git Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/mult_lgt.tdf Line: 90
-Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (13014): Ignored 241 buffer(s)
     Info (13019): Ignored 241 SOFT buffer(s)
 Warning (13024): Output pins are stuck at VCC or GND
@@ -4431,10 +4420,10 @@ Info (21057): Implemented 5555 device resources after synthesis - the final reso
     Info (21061): Implemented 5421 logic cells
     Info (21064): Implemented 4 RAM segments
     Info (21062): Implemented 22 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 77 warnings
-    Info: Peak virtual memory: 1079 megabytes
-    Info: Processing ended: Mon Jun 10 23:22:25 2019
-    Info: Elapsed time: 00:00:35
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 76 warnings
+    Info: Peak virtual memory: 1100 megabytes
+    Info: Processing ended: Mon Jun 10 23:26:04 2019
+    Info: Elapsed time: 00:00:34
     Info: Total CPU time (on all processors): 00:00:48
 
 

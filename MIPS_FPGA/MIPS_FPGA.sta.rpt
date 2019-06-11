@@ -1,5 +1,5 @@
 Timing Analyzer report for MIPS_FPGA
-Mon Jun 10 23:23:25 2019
+Mon Jun 10 23:27:05 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -104,14 +104,14 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.26        ;
+; Average used               ; 1.28        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   8.7%      ;
-;     Processor 3            ;   8.6%      ;
-;     Processor 4            ;   8.3%      ;
+;     Processor 2            ;   9.5%      ;
+;     Processor 3            ;   9.4%      ;
+;     Processor 4            ;   9.1%      ;
 +----------------------------+-------------+
 
 
@@ -592,9 +592,9 @@ No paths to report.
 ; 1.753 ; Mem_Exibi:exibe|j[26] ; Mem_Exibi:exibe|j[30]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.609      ; 2.548      ;
 ; 1.757 ; Mem_Exibi:exibe|j[12] ; Mem_Exibi:exibe|j[16]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.370      ; 2.313      ;
 ; 1.757 ; Mem_Exibi:exibe|j[26] ; Mem_Exibi:exibe|j[28]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.050      ; 1.993      ;
+; 1.762 ; Mem_Exibi:exibe|j[12] ; Mem_Exibi:exibe|j[15]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.370      ; 2.318      ;
 ; 1.762 ; Mem_Exibi:exibe|j[31] ; Mem_Exibi:exibe|altsyncram:Mem_rtl_0|altsyncram_u8c1:auto_generated|ram_block1a0~portb_address_reg0 ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.024      ; 2.008      ;
 ; 1.762 ; Mem_Exibi:exibe|j[31] ; Mem_Exibi:exibe|j[12]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; -0.527     ; 1.421      ;
-; 1.762 ; Mem_Exibi:exibe|j[12] ; Mem_Exibi:exibe|j[15]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.370      ; 2.318      ;
 ; 1.763 ; Mem_Exibi:exibe|j[0]  ; Mem_Exibi:exibe|j[30]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.660      ; 2.609      ;
 ; 1.764 ; Mem_Exibi:exibe|j[8]  ; Mem_Exibi:exibe|j[13]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.344      ; 2.294      ;
 ; 1.771 ; Mem_Exibi:exibe|j[8]  ; Mem_Exibi:exibe|j[18]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.344      ; 2.301      ;
@@ -1043,8 +1043,8 @@ No paths to report.
 ; 1.452 ; Mem_Exibi:exibe|j[11] ; Mem_Exibi:exibe|j[18]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.313      ; 1.936      ;
 ; 1.462 ; Mem_Exibi:exibe|j[10] ; Mem_Exibi:exibe|j[13]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.313      ; 1.946      ;
 ; 1.463 ; Mem_Exibi:exibe|j[22] ; Mem_Exibi:exibe|j[22]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.043      ; 1.677      ;
-; 1.466 ; Mem_Exibi:exibe|j[10] ; Mem_Exibi:exibe|j[18]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.313      ; 1.950      ;
 ; 1.466 ; Mem_Exibi:exibe|j[16] ; Mem_Exibi:exibe|j[16]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.043      ; 1.680      ;
+; 1.466 ; Mem_Exibi:exibe|j[10] ; Mem_Exibi:exibe|j[18]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.313      ; 1.950      ;
 ; 1.466 ; Mem_Exibi:exibe|j[27] ; Mem_Exibi:exibe|j[31]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.541      ; 2.178      ;
 ; 1.479 ; Mem_Exibi:exibe|j[20] ; Mem_Exibi:exibe|j[20]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.043      ; 1.693      ;
 ; 1.483 ; Mem_Exibi:exibe|j[23] ; Mem_Exibi:exibe|j[23]                                                                               ; KEY[2]       ; KEY[2]      ; 0.000        ; 0.043      ; 1.697      ;
@@ -2225,7 +2225,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Jun 10 23:23:19 2019
+    Info: Processing started: Mon Jun 10 23:26:59 2019
 Info: Command: quartus_sta MIPS_FPGA -c MIPS_FPGA
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -2308,8 +2308,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 929 megabytes
-    Info: Processing ended: Mon Jun 10 23:23:25 2019
+    Info: Processing ended: Mon Jun 10 23:27:05 2019
     Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Total CPU time (on all processors): 00:00:06
 
 
