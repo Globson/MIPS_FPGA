@@ -12,7 +12,7 @@ module Conversor_7Seg_Melhorado (entrada,display0,display1,display2,display3,dis
   wire [31:0] Aux7 = (entrada %100000000 -Aux6*1000000 -Aux5*100000 -Aux4*10000 -Aux3*1000 -Aux2*100 -Aux1*10 - Aux0)/10000000;
 
   assign display0 = (Aux0 == 32'd0) ? 7'b1000000:
-               (Aux0 == 32'd1) ? 7'b1001111:
+               (Aux0 == 32'd1) ? 7'b1111001:
                (Aux0 == 32'd2) ? 7'b0100100:
                (Aux0 == 32'd3) ? 7'b0110000:
                (Aux0 == 32'd4) ? 7'b0011001:
@@ -23,7 +23,7 @@ module Conversor_7Seg_Melhorado (entrada,display0,display1,display2,display3,dis
                (Aux0 == 32'd9) ? 7'b0010000: 7'b1111111;
 
   assign display1 = (Aux1 == 32'd0) ? 7'b1000000:
-               (Aux1 == 32'd1) ? 7'b1001111:
+               (Aux1 == 32'd1) ? 7'b1111001:
                (Aux1 == 32'd2) ? 7'b0100100:
                (Aux1 == 32'd3) ? 7'b0110000:
                (Aux1 == 32'd4) ? 7'b0011001:
@@ -34,7 +34,7 @@ module Conversor_7Seg_Melhorado (entrada,display0,display1,display2,display3,dis
                (Aux1 == 32'd9) ? 7'b0010000: 7'b1111111;
 
   assign display2 = (Aux2 == 32'd0) ? 7'b1000000:
-                (Aux2 == 32'd1) ? 7'b1001111:
+                (Aux2 == 32'd1) ? 7'b1111001:
                 (Aux2 == 32'd2) ? 7'b0100100:
                 (Aux2 == 32'd3) ? 7'b0110000:
                 (Aux2 == 32'd4) ? 7'b0011001:
@@ -45,7 +45,7 @@ module Conversor_7Seg_Melhorado (entrada,display0,display1,display2,display3,dis
                 (Aux2 == 32'd9) ? 7'b0010000: 7'b1111111;
 
    assign display3 = (Aux3 == 32'd0) ? 7'b1000000:
-                (Aux3 == 32'd1) ? 7'b1001111:
+                (Aux3 == 32'd1) ? 7'b1111001:
                 (Aux3 == 32'd2) ? 7'b0100100:
                 (Aux3 == 32'd3) ? 7'b0110000:
                 (Aux3 == 32'd4) ? 7'b0011001:
@@ -56,7 +56,7 @@ module Conversor_7Seg_Melhorado (entrada,display0,display1,display2,display3,dis
                 (Aux3 == 32'd9) ? 7'b0010000: 7'b1111111;
 
     assign display4 = (Aux4 == 32'd0) ? 7'b1000000:
-                 (Aux4 == 32'd1) ? 7'b1001111:
+                 (Aux4 == 32'd1) ? 7'b1111001:
                  (Aux4 == 32'd2) ? 7'b0100100:
                  (Aux4 == 32'd3) ? 7'b0110000:
                  (Aux4 == 32'd4) ? 7'b0011001:
@@ -67,7 +67,7 @@ module Conversor_7Seg_Melhorado (entrada,display0,display1,display2,display3,dis
                  (Aux4 == 32'd9) ? 7'b0010000: 7'b1111111;
 
     assign display5 = (Aux5 == 32'd0) ? 7'b1000000:
-                 (Aux5 == 32'd1) ? 7'b1001111:
+                 (Aux5 == 32'd1) ? 7'b1111001:
                  (Aux5 == 32'd2) ? 7'b0100100:
                  (Aux5 == 32'd3) ? 7'b0110000:
                  (Aux5 == 32'd4) ? 7'b0011001:
@@ -78,7 +78,7 @@ module Conversor_7Seg_Melhorado (entrada,display0,display1,display2,display3,dis
                  (Aux5 == 32'd9) ? 7'b0010000: 7'b1111111;
 
     assign display6 = (Aux6 == 32'd0) ? 7'b1000000:
-                (Aux6 == 32'd1) ? 7'b1001111:
+                (Aux6 == 32'd1) ? 7'b1111001:
                 (Aux6 == 32'd2) ? 7'b0100100:
                 (Aux6 == 32'd3) ? 7'b0110000:
                 (Aux6 == 32'd4) ? 7'b0011001:
@@ -89,7 +89,7 @@ module Conversor_7Seg_Melhorado (entrada,display0,display1,display2,display3,dis
                 (Aux6 == 32'd9) ? 7'b0010000: 7'b1111111;
 
     assign display7 = (Aux7 == 32'd0) ? 7'b1000000:
-                (Aux7 == 32'd1) ? 7'b1001111:
+                (Aux7 == 32'd1) ? 7'b1111001:
                 (Aux7 == 32'd2) ? 7'b0100100:
                 (Aux7 == 32'd3) ? 7'b0110000:
                 (Aux7 == 32'd4) ? 7'b0011001:

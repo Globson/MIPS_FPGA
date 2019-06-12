@@ -7,23 +7,25 @@ module Mem_Exibi(resultadoALU,Clk,proximo,saida,reset);
   integer j = 0;
 
   always @ ( negedge Clk ) begin
-    if(i<25) begin
+    if(i<16) begin   //Setar quantidade de instruções
       Mem[i] <= resultadoALU;
       i <= i + 1;
     end
     else if(reset) begin
       i<=0;
+      Mem[0] <= resultadoALU;
     end
   end
 
   always @ (posedge proximo) begin
-    if(j<25) begin
+    if(j<16) begin  //Setar quantidade de instruções.//
       saida <= Mem[j];
       j <= j + 1;
     end
 
     else begin
-      j <= 0;     //tirar esse pedaço caso n queira repetição de resultados.
+      saida <= 32'b00000101111101011110000011111111; //Simbolo 99999999 indicando fim de leitura.
+      j<=0;
     end
   end
 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MIPS_FPGA
-Tue Jun 11 22:45:24 2019
+Wed Jun 12 15:27:13 2019
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -13,42 +13,38 @@ Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Analysis & Synthesis RAM Summary
-  9. Analysis & Synthesis DSP Block Usage Summary
- 10. User-Specified and Inferred Latches
- 11. Registers Removed During Synthesis
- 12. Removed Registers Triggering Further Register Optimizations
- 13. General Register Statistics
- 14. Inverted Register Statistics
- 15. Multiplexer Restructuring Statistics (Restructuring Performed)
- 16. Source assignments for Mem_Exibi:exibe|altsyncram:Mem_rtl_0|altsyncram_qvc1:auto_generated
- 17. Parameter Settings for Inferred Entity Instance: Mem_Exibi:exibe|altsyncram:Mem_rtl_0
- 18. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod0
- 19. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div0
- 20. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div1
- 21. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div2
- 22. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div3
- 23. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div4
- 24. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div5
- 25. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div6
- 26. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod1
- 27. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod2
- 28. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_mult:Mult0
- 29. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod3
- 30. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_mult:Mult1
- 31. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod4
- 32. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_mult:Mult2
- 33. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod5
- 34. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_mult:Mult3
- 35. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod6
- 36. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_mult:Mult4
- 37. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod7
- 38. altsyncram Parameter Settings by Entity Instance
- 39. lpm_mult Parameter Settings by Entity Instance
- 40. Post-Synthesis Netlist Statistics for Top Partition
- 41. Elapsed Time Per Partition
- 42. Analysis & Synthesis Messages
- 43. Analysis & Synthesis Suppressed Messages
+  8. Analysis & Synthesis DSP Block Usage Summary
+  9. User-Specified and Inferred Latches
+ 10. Registers Removed During Synthesis
+ 11. Removed Registers Triggering Further Register Optimizations
+ 12. General Register Statistics
+ 13. Inverted Register Statistics
+ 14. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 15. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod0
+ 16. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div0
+ 17. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div1
+ 18. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div2
+ 19. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div3
+ 20. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div4
+ 21. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div5
+ 22. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div6
+ 23. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod1
+ 24. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod2
+ 25. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_mult:Mult0
+ 26. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod3
+ 27. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_mult:Mult1
+ 28. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod4
+ 29. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_mult:Mult2
+ 30. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod5
+ 31. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_mult:Mult3
+ 32. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod6
+ 33. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_mult:Mult4
+ 34. Parameter Settings for Inferred Entity Instance: Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod7
+ 35. lpm_mult Parameter Settings by Entity Instance
+ 36. Post-Synthesis Netlist Statistics for Top Partition
+ 37. Elapsed Time Per Partition
+ 38. Analysis & Synthesis Messages
+ 39. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -75,18 +71,18 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Jun 11 22:45:24 2019       ;
+; Analysis & Synthesis Status        ; Successful - Wed Jun 12 15:27:12 2019       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; MIPS_FPGA                                   ;
 ; Top-level Entity Name              ; MIPS_FPGA                                   ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 14,979                                      ;
-;     Total combinational functions  ; 13,009                                      ;
-;     Dedicated logic registers      ; 2,186                                       ;
-; Total registers                    ; 2186                                        ;
+; Total logic elements               ; 16,314                                      ;
+;     Total combinational functions  ; 13,576                                      ;
+;     Dedicated logic registers      ; 3,051                                       ;
+; Total registers                    ; 3051                                        ;
 ; Total pins                         ; 108                                         ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 832                                         ;
+; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 22                                          ;
 ; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
@@ -191,123 +187,114 @@ agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.1%      ;
-;     Processor 3            ;   0.1%      ;
-;     Processor 4            ;   0.1%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                     ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                 ; Library ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------+---------+
-; mips_fpga.v                      ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v                         ;         ;
-; Modulos/ALU.v                    ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ALU.v                       ;         ;
-; Modulos/AND.v                    ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/AND.v                       ;         ;
-; Modulos/ControleALU.v            ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v               ;         ;
-; Modulos/Controller.v             ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v                ;         ;
-; Modulos/Data_Memory.v            ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Data_Memory.v               ;         ;
-; Modulos/Ext_Sinal.v              ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Ext_Sinal.v                 ;         ;
-; Modulos/LeftShift2.v             ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/LeftShift2.v                ;         ;
-; Modulos/Memoria_instrucoes.v     ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v        ;         ;
-; Modulos/MUX.v                    ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/MUX.v                       ;         ;
-; Modulos/PC.v                     ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/PC.v                        ;         ;
-; Modulos/Registradores.v          ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Registradores.v             ;         ;
-; Modulos/Somador.v                ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Somador.v                   ;         ;
-; Modulos/Somador4.v               ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Somador4.v                  ;         ;
-; Modulos/Conversor_7Seg.v         ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Conversor_7Seg.v            ;         ;
-; Modulos/Memoria_de_exibicao.v    ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_de_exibicao.v       ;         ;
-; altsyncram.tdf                   ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
-; stratix_ram_block.inc            ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
-; lpm_mux.inc                      ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_decode.inc        ;         ;
-; aglobal170.inc                   ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/aglobal170.inc        ;         ;
-; a_rdenreg.inc                    ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/a_rdenreg.inc         ;         ;
-; altrom.inc                       ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altrom.inc            ;         ;
-; altram.inc                       ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altram.inc            ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altdpram.inc          ;         ;
-; db/altsyncram_qvc1.tdf           ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/altsyncram_qvc1.tdf              ;         ;
-; lpm_divide.tdf                   ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_divide.tdf        ;         ;
-; abs_divider.inc                  ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/abs_divider.inc       ;         ;
-; sign_div_unsign.inc              ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/sign_div_unsign.inc   ;         ;
-; db/lpm_divide_3bm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_3bm.tdf               ;         ;
-; db/sign_div_unsign_olh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_olh.tdf          ;         ;
-; db/alt_u_div_47f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_47f.tdf                ;         ;
-; db/add_sub_7pc.tdf               ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/add_sub_7pc.tdf                  ;         ;
-; db/add_sub_8pc.tdf               ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/add_sub_8pc.tdf                  ;         ;
-; db/lpm_divide_0jm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_0jm.tdf               ;         ;
-; db/lpm_divide_3jm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_3jm.tdf               ;         ;
-; db/sign_div_unsign_rlh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_rlh.tdf          ;         ;
-; db/alt_u_div_a7f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_a7f.tdf                ;         ;
-; db/lpm_divide_dkm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_dkm.tdf               ;         ;
-; db/sign_div_unsign_5nh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_5nh.tdf          ;         ;
-; db/alt_u_div_u9f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_u9f.tdf                ;         ;
-; db/lpm_divide_hkm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_hkm.tdf               ;         ;
-; db/sign_div_unsign_9nh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_9nh.tdf          ;         ;
-; db/alt_u_div_6af.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_6af.tdf                ;         ;
-; db/lpm_divide_kkm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_kkm.tdf               ;         ;
-; db/sign_div_unsign_cnh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_cnh.tdf          ;         ;
-; db/alt_u_div_caf.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_caf.tdf                ;         ;
-; db/lpm_divide_ekm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_ekm.tdf               ;         ;
-; db/sign_div_unsign_6nh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_6nh.tdf          ;         ;
-; db/alt_u_div_0af.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_0af.tdf                ;         ;
-; db/lpm_divide_ikm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_ikm.tdf               ;         ;
-; db/sign_div_unsign_anh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_anh.tdf          ;         ;
-; db/alt_u_div_8af.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_8af.tdf                ;         ;
-; db/lpm_divide_6bm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_6bm.tdf               ;         ;
-; db/lpm_divide_gcm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_gcm.tdf               ;         ;
-; lpm_mult.tdf                     ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_mult.tdf          ;         ;
-; lpm_add_sub.inc                  ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_add_sub.inc       ;         ;
-; multcore.inc                     ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/multcore.inc          ;         ;
-; bypassff.inc                     ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/bypassff.inc          ;         ;
-; altshift.inc                     ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altshift.inc          ;         ;
-; db/mult_fft.tdf                  ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/mult_fft.tdf                     ;         ;
-; db/lpm_divide_kcm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_kcm.tdf               ;         ;
-; db/mult_jgt.tdf                  ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/mult_jgt.tdf                     ;         ;
-; db/lpm_divide_ncm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_ncm.tdf               ;         ;
-; db/mult_rgt.tdf                  ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/mult_rgt.tdf                     ;         ;
-; db/lpm_divide_hcm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_hcm.tdf               ;         ;
-; db/mult_1ht.tdf                  ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/mult_1ht.tdf                     ;         ;
-; db/lpm_divide_lcm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_lcm.tdf               ;         ;
-; db/mult_lgt.tdf                  ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/mult_lgt.tdf                     ;         ;
-; db/lpm_divide_ocm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_ocm.tdf               ;         ;
-; db/sign_div_unsign_dnh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_dnh.tdf          ;         ;
-; db/alt_u_div_eaf.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_eaf.tdf                ;         ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                   ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                               ; Library ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
+; mips_fpga.v                      ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v                       ;         ;
+; Modulos/ALU.v                    ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ALU.v                     ;         ;
+; Modulos/AND.v                    ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/AND.v                     ;         ;
+; Modulos/ControleALU.v            ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v             ;         ;
+; Modulos/Controller.v             ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v              ;         ;
+; Modulos/Data_Memory.v            ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Data_Memory.v             ;         ;
+; Modulos/Ext_Sinal.v              ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Ext_Sinal.v               ;         ;
+; Modulos/LeftShift2.v             ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/LeftShift2.v              ;         ;
+; Modulos/Memoria_instrucoes.v     ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v      ;         ;
+; Modulos/MUX.v                    ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/MUX.v                     ;         ;
+; Modulos/PC.v                     ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/PC.v                      ;         ;
+; Modulos/Registradores.v          ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Registradores.v           ;         ;
+; Modulos/Somador.v                ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Somador.v                 ;         ;
+; Modulos/Somador4.v               ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Somador4.v                ;         ;
+; Modulos/Conversor_7Seg.v         ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Conversor_7Seg.v          ;         ;
+; Modulos/Memoria_de_exibicao.v    ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_de_exibicao.v     ;         ;
+; Modulos/DivisorClk.v             ; yes             ; Auto-Found Verilog HDL File  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/DivisorClk.v              ;         ;
+; lpm_divide.tdf                   ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_divide.tdf      ;         ;
+; abs_divider.inc                  ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/abs_divider.inc     ;         ;
+; sign_div_unsign.inc              ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/sign_div_unsign.inc ;         ;
+; aglobal170.inc                   ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/aglobal170.inc      ;         ;
+; db/lpm_divide_3bm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_3bm.tdf             ;         ;
+; db/sign_div_unsign_olh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_olh.tdf        ;         ;
+; db/alt_u_div_47f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_47f.tdf              ;         ;
+; db/add_sub_7pc.tdf               ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/add_sub_7pc.tdf                ;         ;
+; db/add_sub_8pc.tdf               ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/add_sub_8pc.tdf                ;         ;
+; db/lpm_divide_0jm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_0jm.tdf             ;         ;
+; db/lpm_divide_3jm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_3jm.tdf             ;         ;
+; db/sign_div_unsign_rlh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_rlh.tdf        ;         ;
+; db/alt_u_div_a7f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_a7f.tdf              ;         ;
+; db/lpm_divide_dkm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_dkm.tdf             ;         ;
+; db/sign_div_unsign_5nh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_5nh.tdf        ;         ;
+; db/alt_u_div_u9f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_u9f.tdf              ;         ;
+; db/lpm_divide_hkm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_hkm.tdf             ;         ;
+; db/sign_div_unsign_9nh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_9nh.tdf        ;         ;
+; db/alt_u_div_6af.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_6af.tdf              ;         ;
+; db/lpm_divide_kkm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_kkm.tdf             ;         ;
+; db/sign_div_unsign_cnh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_cnh.tdf        ;         ;
+; db/alt_u_div_caf.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_caf.tdf              ;         ;
+; db/lpm_divide_ekm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_ekm.tdf             ;         ;
+; db/sign_div_unsign_6nh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_6nh.tdf        ;         ;
+; db/alt_u_div_0af.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_0af.tdf              ;         ;
+; db/lpm_divide_ikm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_ikm.tdf             ;         ;
+; db/sign_div_unsign_anh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_anh.tdf        ;         ;
+; db/alt_u_div_8af.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_8af.tdf              ;         ;
+; db/lpm_divide_6bm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_6bm.tdf             ;         ;
+; db/lpm_divide_gcm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_gcm.tdf             ;         ;
+; lpm_mult.tdf                     ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_mult.tdf        ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_add_sub.inc     ;         ;
+; multcore.inc                     ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/multcore.inc        ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/bypassff.inc        ;         ;
+; altshift.inc                     ; yes             ; Megafunction                 ; e:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altshift.inc        ;         ;
+; db/mult_fft.tdf                  ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/mult_fft.tdf                   ;         ;
+; db/lpm_divide_kcm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_kcm.tdf             ;         ;
+; db/mult_jgt.tdf                  ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/mult_jgt.tdf                   ;         ;
+; db/lpm_divide_ncm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_ncm.tdf             ;         ;
+; db/mult_rgt.tdf                  ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/mult_rgt.tdf                   ;         ;
+; db/lpm_divide_hcm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_hcm.tdf             ;         ;
+; db/mult_1ht.tdf                  ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/mult_1ht.tdf                   ;         ;
+; db/lpm_divide_lcm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_lcm.tdf             ;         ;
+; db/mult_lgt.tdf                  ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/mult_lgt.tdf                   ;         ;
+; db/lpm_divide_ocm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/lpm_divide_ocm.tdf             ;         ;
+; db/sign_div_unsign_dnh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/sign_div_unsign_dnh.tdf        ;         ;
+; db/alt_u_div_eaf.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/alt_u_div_eaf.tdf              ;         ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
 
 
-+------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                ;
-+---------------------------------------------+--------------+
-; Resource                                    ; Usage        ;
-+---------------------------------------------+--------------+
-; Estimated Total logic elements              ; 14,979       ;
-;                                             ;              ;
-; Total combinational functions               ; 13009        ;
-; Logic element usage by number of LUT inputs ;              ;
-;     -- 4 input functions                    ; 4673         ;
-;     -- 3 input functions                    ; 3319         ;
-;     -- <=2 input functions                  ; 5017         ;
-;                                             ;              ;
-; Logic elements by mode                      ;              ;
-;     -- normal mode                          ; 9452         ;
-;     -- arithmetic mode                      ; 3557         ;
-;                                             ;              ;
-; Total registers                             ; 2186         ;
-;     -- Dedicated logic registers            ; 2186         ;
-;     -- I/O registers                        ; 0            ;
-;                                             ;              ;
-; I/O pins                                    ; 108          ;
-; Total memory bits                           ; 832          ;
-;                                             ;              ;
-; Embedded Multiplier 9-bit elements          ; 22           ;
-;                                             ;              ;
-; Maximum fan-out node                        ; KEY[0]~input ;
-; Maximum fan-out                             ; 2155         ;
-; Total fan-out                               ; 45402        ;
-; Average fan-out                             ; 2.94         ;
-+---------------------------------------------+--------------+
++----------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                ;
++---------------------------------------------+------------------------------+
+; Resource                                    ; Usage                        ;
++---------------------------------------------+------------------------------+
+; Estimated Total logic elements              ; 16,314                       ;
+;                                             ;                              ;
+; Total combinational functions               ; 13576                        ;
+; Logic element usage by number of LUT inputs ;                              ;
+;     -- 4 input functions                    ; 5258                         ;
+;     -- 3 input functions                    ; 3225                         ;
+;     -- <=2 input functions                  ; 5093                         ;
+;                                             ;                              ;
+; Logic elements by mode                      ;                              ;
+;     -- normal mode                          ; 9992                         ;
+;     -- arithmetic mode                      ; 3584                         ;
+;                                             ;                              ;
+; Total registers                             ; 3051                         ;
+;     -- Dedicated logic registers            ; 3051                         ;
+;     -- I/O registers                        ; 0                            ;
+;                                             ;                              ;
+; I/O pins                                    ; 108                          ;
+;                                             ;                              ;
+; Embedded Multiplier 9-bit elements          ; 22                           ;
+;                                             ;                              ;
+; Maximum fan-out node                        ; DivisorClk:clk_menor|clk_out ;
+; Maximum fan-out                             ; 2956                         ;
+; Total fan-out                               ; 49698                        ;
+; Average fan-out                             ; 2.95                         ;
++---------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -315,11 +302,11 @@ agreement for further details.
 +-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+--------------+
 ; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                        ; Entity Name              ; Library Name ;
 +-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+--------------+
-; |MIPS_FPGA                                ; 13009 (5)           ; 2186 (5)                  ; 832         ; 22           ; 0       ; 11        ; 108  ; 0            ; |MIPS_FPGA                                                                                                                                 ; MIPS_FPGA                ; work         ;
-;    |ALU:ALU_1|                            ; 204 (204)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|ALU:ALU_1                                                                                                                       ; ALU                      ; work         ;
-;    |ControleALU:Control_ALU|              ; 17 (17)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|ControleALU:Control_ALU                                                                                                         ; ControleALU              ; work         ;
-;    |Controller:controll|                  ; 17 (17)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Controller:controll                                                                                                             ; Controller               ; work         ;
-;    |Conversor_7Seg_Melhorado:ConvMe|      ; 10330 (1063)        ; 0 (0)                     ; 0           ; 22           ; 0       ; 11        ; 0    ; 0            ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe                                                                                                 ; Conversor_7Seg_Melhorado ; work         ;
+; |MIPS_FPGA                                ; 13576 (5)           ; 3051 (5)                  ; 0           ; 22           ; 0       ; 11        ; 108  ; 0            ; |MIPS_FPGA                                                                                                                                 ; MIPS_FPGA                ; work         ;
+;    |ALU:ALU_1|                            ; 194 (194)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|ALU:ALU_1                                                                                                                       ; ALU                      ; work         ;
+;    |ControleALU:Control_ALU|              ; 12 (12)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|ControleALU:Control_ALU                                                                                                         ; ControleALU              ; work         ;
+;    |Controller:controll|                  ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Controller:controll                                                                                                             ; Controller               ; work         ;
+;    |Conversor_7Seg_Melhorado:ConvMe|      ; 10344 (1077)        ; 0 (0)                     ; 0           ; 22           ; 0       ; 11        ; 0    ; 0            ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe                                                                                                 ; Conversor_7Seg_Melhorado ; work         ;
 ;       |lpm_divide:Div0|                   ; 92 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div0                                                                                 ; lpm_divide               ; work         ;
 ;          |lpm_divide_0jm:auto_generated|  ; 92 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div0|lpm_divide_0jm:auto_generated                                                   ; lpm_divide_0jm           ; work         ;
 ;             |sign_div_unsign_olh:divider| ; 92 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Div0|lpm_divide_0jm:auto_generated|sign_div_unsign_olh:divider                       ; sign_div_unsign_olh      ; work         ;
@@ -391,27 +378,15 @@ agreement for further details.
 ;       |lpm_mult:Mult4|                    ; 28 (0)              ; 0 (0)                     ; 0           ; 6            ; 0       ; 3         ; 0    ; 0            ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|lpm_mult:Mult4                                                                                  ; lpm_mult                 ; work         ;
 ;          |mult_lgt:auto_generated|        ; 28 (28)             ; 0 (0)                     ; 0           ; 6            ; 0       ; 3         ; 0    ; 0            ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|lpm_mult:Mult4|mult_lgt:auto_generated                                                          ; mult_lgt                 ; work         ;
 ;    |Data_Memory:Data_Mem|                 ; 765 (765)           ; 1056 (1056)               ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Data_Memory:Data_Mem                                                                                                            ; Data_Memory              ; work         ;
-;    |Door_BNE_BEQ:Door1|                   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Door_BNE_BEQ:Door1                                                                                                              ; Door_BNE_BEQ             ; work         ;
-;    |MUX_32b:mux32b_2|                     ; 33 (33)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|MUX_32b:mux32b_2                                                                                                                ; MUX_32b                  ; work         ;
-;    |MUX_5b:mux5b_1|                       ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|MUX_5b:mux5b_1                                                                                                                  ; MUX_5b                   ; work         ;
-;    |Mem_Exibi:exibe|                      ; 154 (154)           ; 96 (96)                   ; 832         ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Mem_Exibi:exibe                                                                                                                 ; Mem_Exibi                ; work         ;
-;       |altsyncram:Mem_rtl_0|              ; 0 (0)               ; 0 (0)                     ; 832         ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Mem_Exibi:exibe|altsyncram:Mem_rtl_0                                                                                            ; altsyncram               ; work         ;
-;          |altsyncram_qvc1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 832         ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Mem_Exibi:exibe|altsyncram:Mem_rtl_0|altsyncram_qvc1:auto_generated                                                             ; altsyncram_qvc1          ; work         ;
-;    |Memoria_instrucoes:Inst_Mem|          ; 35 (35)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Memoria_instrucoes:Inst_Mem                                                                                                     ; Memoria_instrucoes       ; work         ;
+;    |DivisorClk:clk_menor|                 ; 56 (56)             ; 33 (33)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|DivisorClk:clk_menor                                                                                                            ; DivisorClk               ; work         ;
+;    |MUX_32b:mux32b_2|                     ; 32 (32)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|MUX_32b:mux32b_2                                                                                                                ; MUX_32b                  ; work         ;
+;    |MUX_5b:mux5b_1|                       ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|MUX_5b:mux5b_1                                                                                                                  ; MUX_5b                   ; work         ;
+;    |Mem_Exibi:exibe|                      ; 694 (694)           ; 928 (928)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Mem_Exibi:exibe                                                                                                                 ; Mem_Exibi                ; work         ;
+;    |Memoria_instrucoes:Inst_Mem|          ; 27 (27)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Memoria_instrucoes:Inst_Mem                                                                                                     ; Memoria_instrucoes       ; work         ;
 ;    |PC:pc|                                ; 5 (5)               ; 5 (5)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|PC:pc                                                                                                                           ; PC                       ; work         ;
-;    |Registradores:Regs|                   ; 1431 (1431)         ; 1024 (1024)               ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Registradores:Regs                                                                                                              ; Registradores            ; work         ;
-;    |Somador4:Soma4|                       ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Somador4:Soma4                                                                                                                  ; Somador4                 ; work         ;
+;    |Registradores:Regs|                   ; 1429 (1429)         ; 1024 (1024)               ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_FPGA|Registradores:Regs                                                                                                              ; Registradores            ; work         ;
 +-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis RAM Summary                                                                                                                                                   ;
-+--------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
-; Name                                                                           ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF  ;
-+--------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
-; Mem_Exibi:exibe|altsyncram:Mem_rtl_0|altsyncram_qvc1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 26           ; 32           ; 26           ; 32           ; 832  ; None ;
-+--------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
 
 
 +-----------------------------------------------------+
@@ -437,21 +412,18 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 +-----------------------------------------------------+------------------------------+------------------------+
 ; Latch Name                                          ; Latch Enable Signal          ; Free of Timing Hazards ;
 +-----------------------------------------------------+------------------------------+------------------------+
-; ControleALU:Control_ALU|Controle_ALU[0]             ; ControleALU:Control_ALU|Mux1 ; yes                    ;
 ; ControleALU:Control_ALU|Controle_ALU[3]             ; ControleALU:Control_ALU|Mux1 ; yes                    ;
+; ControleALU:Control_ALU|Controle_ALU[0]             ; ControleALU:Control_ALU|Mux1 ; yes                    ;
 ; ControleALU:Control_ALU|Controle_ALU[1]             ; ControleALU:Control_ALU|Mux1 ; yes                    ;
 ; Controller:controll|ALUSrc                          ; Controller:controll|WideOr0  ; yes                    ;
 ; ControleALU:Control_ALU|Controle_ALU[2]             ; ControleALU:Control_ALU|Mux1 ; yes                    ;
 ; Controller:controll|ALUOp[1]                        ; Controller:controll|WideOr0  ; yes                    ;
-; Controller:controll|ALUOp[0]                        ; Controller:controll|WideOr0  ; yes                    ;
 ; Controller:controll|MemtoReg                        ; Controller:controll|WideOr0  ; yes                    ;
-; Controller:controll|RegDst                          ; Controller:controll|WideOr0  ; yes                    ;
 ; Controller:controll|RegWrite                        ; Controller:controll|WideOr0  ; yes                    ;
-; Controller:controll|Branch[0]                       ; Controller:controll|WideOr0  ; yes                    ;
-; Controller:controll|Branch[1]                       ; Controller:controll|WideOr0  ; yes                    ;
+; Controller:controll|RegDst                          ; Controller:controll|WideOr0  ; yes                    ;
 ; Controller:controll|MemWrite                        ; Controller:controll|WideOr0  ; yes                    ;
 ; Controller:controll|MemRead                         ; Controller:controll|WideOr0  ; yes                    ;
-; Number of user-specified and inferred latches = 14  ;                              ;                        ;
+; Number of user-specified and inferred latches = 11  ;                              ;                        ;
 +-----------------------------------------------------+------------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
@@ -485,12 +457,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 2186  ;
-; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 5     ;
+; Total registers                              ; 3051  ;
+; Number of registers using Synchronous Clear  ; 32    ;
+; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 2115  ;
+; Number of registers using Clock Enable       ; 2916  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -500,9 +472,9 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------+---------+
 ; Inverted Register                      ; Fan out ;
 +----------------------------------------+---------+
-; Mem_Exibi:exibe|i[4]                   ; 4       ;
-; Mem_Exibi:exibe|i[3]                   ; 4       ;
-; Mem_Exibi:exibe|i[1]                   ; 3       ;
+; Mem_Exibi:exibe|i[3]                   ; 7       ;
+; Mem_Exibi:exibe|i[4]                   ; 10      ;
+; Mem_Exibi:exibe|i[1]                   ; 26      ;
 ; Total number of inverted registers = 3 ;         ;
 +----------------------------------------+---------+
 
@@ -512,155 +484,85 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                             ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------+
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[0][13]              ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[1][29]              ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[2][29]              ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[3][13]              ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[4][23]              ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[5][23]              ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[6][12]              ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[7][27]              ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[8][5]               ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[9][25]              ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[10][8]              ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[11][25]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[12][16]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[13][7]              ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[14][16]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[15][3]              ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[16][12]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[17][12]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[18][12]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[19][12]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[20][12]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[21][10]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[22][6]              ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[23][26]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[24][11]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[25][26]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[26][29]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[27][29]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[28][22]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[29][22]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[30][23]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[31][16]             ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[0][31]         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[1][31]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[0][20]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[1][20]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[2][28]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[3][31]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[4][21]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[5][7]               ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[6][18]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[7][16]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[8][30]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[9][1]               ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[10][30]             ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[11][17]             ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[12][15]             ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[13][15]             ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[14][8]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[15][17]             ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[16][6]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[17][7]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[18][30]             ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[19][7]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[20][15]             ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[21][17]             ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[22][0]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[23][29]             ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[24][0]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[25][9]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[26][4]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[27][1]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[28][1]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[29][2]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[30][29]             ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Registradores:Regs|Regs[31][4]              ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[0][21]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[1][5]          ;
 ; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[2][23]         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[3][29]         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[4][25]         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[5][25]         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[6][29]         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[7][6]          ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[8][10]         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[9][2]          ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[10][1]         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[11][29]        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[12][24]        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[13][0]         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[14][17]        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[15][7]         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[16][0]         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[17][25]        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[18][15]        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[19][28]        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[20][23]        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[21][7]         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[22][26]        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[23][23]        ;
-; 3:1                ; 29 bits   ; 58 LEs        ; 29 LEs               ; 29 LEs                 ; Yes        ; |MIPS_FPGA|Mem_Exibi:exibe|i[6]                        ;
-; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|ReadData[1]            ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |MIPS_FPGA|Mem_Exibi:exibe|i[4]                        ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |MIPS_FPGA|ControleALU:Control_ALU|Mux6                ;
-; 16:1               ; 31 bits   ; 310 LEs       ; 124 LEs              ; 186 LEs                ; No         ; |MIPS_FPGA|ALU:ALU_1|Mux4                              ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display1[5] ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display2[5] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[3][13]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[4][19]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[5][15]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[6][28]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[7][14]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[8][12]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[9][9]          ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[10][3]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[11][5]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[12][5]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[13][5]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[14][5]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[15][5]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[16][13]        ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[17][11]        ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[18][14]        ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[19][6]         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[20][14]        ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[21][14]        ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[22][14]        ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|MemData[23][14]        ;
+; 3:1                ; 29 bits   ; 58 LEs        ; 29 LEs               ; 29 LEs                 ; Yes        ; |MIPS_FPGA|Mem_Exibi:exibe|i[22]                       ;
+; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; Yes        ; |MIPS_FPGA|Data_Memory:Data_Mem|ReadData[5]            ;
+; 27:1               ; 32 bits   ; 576 LEs       ; 576 LEs              ; 0 LEs                  ; Yes        ; |MIPS_FPGA|Mem_Exibi:exibe|saida[11]                   ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |MIPS_FPGA|Mem_Exibi:exibe|i[3]                        ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display1[6] ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display2[6] ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display3[5] ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display4[5] ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display5[5] ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display6[6] ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display7[5] ;
-; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |MIPS_FPGA|Registradores:Regs|Mux24                    ;
-; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |MIPS_FPGA|Registradores:Regs|Mux39                    ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display0[5] ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display7[6] ;
+; 16:1               ; 31 bits   ; 310 LEs       ; 124 LEs              ; 186 LEs                ; No         ; |MIPS_FPGA|ALU:ALU_1|Mux0                              ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display0[6] ;
 ; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display1[0] ;
 ; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display2[2] ;
-; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display3[0] ;
-; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display4[0] ;
-; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display5[3] ;
-; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display6[3] ;
-; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display7[3] ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display3[3] ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display4[3] ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display5[0] ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display6[2] ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |MIPS_FPGA|Conversor_7Seg_Melhorado:ConvMe|display7[0] ;
+; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |MIPS_FPGA|Registradores:Regs|Mux19                    ;
+; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |MIPS_FPGA|Registradores:Regs|Mux33                    ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------+
-; Source assignments for Mem_Exibi:exibe|altsyncram:Mem_rtl_0|altsyncram_qvc1:auto_generated ;
-+---------------------------------+--------------------+------+------------------------------+
-; Assignment                      ; Value              ; From ; To                           ;
-+---------------------------------+--------------------+------+------------------------------+
-; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                            ;
-+---------------------------------+--------------------+------+------------------------------+
-
-
-+---------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: Mem_Exibi:exibe|altsyncram:Mem_rtl_0 ;
-+------------------------------------+----------------------+---------------------------+
-; Parameter Name                     ; Value                ; Type                      ;
-+------------------------------------+----------------------+---------------------------+
-; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                   ;
-; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                ;
-; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY              ;
-; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE              ;
-; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE            ;
-; WIDTH_BYTEENA                      ; 1                    ; Untyped                   ;
-; OPERATION_MODE                     ; DUAL_PORT            ; Untyped                   ;
-; WIDTH_A                            ; 32                   ; Untyped                   ;
-; WIDTHAD_A                          ; 5                    ; Untyped                   ;
-; NUMWORDS_A                         ; 26                   ; Untyped                   ;
-; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                   ;
-; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                   ;
-; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                   ;
-; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                   ;
-; INDATA_ACLR_A                      ; NONE                 ; Untyped                   ;
-; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                   ;
-; WIDTH_B                            ; 32                   ; Untyped                   ;
-; WIDTHAD_B                          ; 5                    ; Untyped                   ;
-; NUMWORDS_B                         ; 26                   ; Untyped                   ;
-; INDATA_REG_B                       ; CLOCK1               ; Untyped                   ;
-; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                   ;
-; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                   ;
-; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                   ;
-; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                   ;
-; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                   ;
-; INDATA_ACLR_B                      ; NONE                 ; Untyped                   ;
-; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                   ;
-; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                   ;
-; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                   ;
-; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                   ;
-; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                   ;
-; WIDTH_BYTEENA_A                    ; 1                    ; Untyped                   ;
-; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                   ;
-; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                   ;
-; BYTE_SIZE                          ; 8                    ; Untyped                   ;
-; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                   ;
-; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                   ;
-; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                   ;
-; INIT_FILE                          ; UNUSED               ; Untyped                   ;
-; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                   ;
-; MAXIMUM_DEPTH                      ; 0                    ; Untyped                   ;
-; CLOCK_ENABLE_INPUT_A               ; NORMAL               ; Untyped                   ;
-; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                   ;
-; CLOCK_ENABLE_OUTPUT_A              ; NORMAL               ; Untyped                   ;
-; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                   ;
-; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                   ;
-; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                   ;
-; ENABLE_ECC                         ; FALSE                ; Untyped                   ;
-; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                   ;
-; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                   ;
-; DEVICE_FAMILY                      ; Cyclone IV E         ; Untyped                   ;
-; CBXI_PARAMETER                     ; altsyncram_qvc1      ; Untyped                   ;
-+------------------------------------+----------------------+---------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +--------------------------------------------------------------------------------------------------+
@@ -1183,26 +1085,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------+
-; altsyncram Parameter Settings by Entity Instance                                 ;
-+-------------------------------------------+--------------------------------------+
-; Name                                      ; Value                                ;
-+-------------------------------------------+--------------------------------------+
-; Number of entity instances                ; 1                                    ;
-; Entity Instance                           ; Mem_Exibi:exibe|altsyncram:Mem_rtl_0 ;
-;     -- OPERATION_MODE                     ; DUAL_PORT                            ;
-;     -- WIDTH_A                            ; 32                                   ;
-;     -- NUMWORDS_A                         ; 26                                   ;
-;     -- OUTDATA_REG_A                      ; UNREGISTERED                         ;
-;     -- WIDTH_B                            ; 32                                   ;
-;     -- NUMWORDS_B                         ; 26                                   ;
-;     -- ADDRESS_REG_B                      ; CLOCK1                               ;
-;     -- OUTDATA_REG_B                      ; UNREGISTERED                         ;
-;     -- RAM_BLOCK_TYPE                     ; AUTO                                 ;
-;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                            ;
-+-------------------------------------------+--------------------------------------+
-
-
 +----------------------------------------------------------------------------------------+
 ; lpm_mult Parameter Settings by Entity Instance                                         ;
 +---------------------------------------+------------------------------------------------+
@@ -1273,27 +1155,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 108                         ;
-; cycloneiii_ff         ; 2186                        ;
-;     ENA               ; 2115                        ;
-;     SLD               ; 5                           ;
-;     plain             ; 66                          ;
-; cycloneiii_lcell_comb ; 13026                       ;
-;     arith             ; 3557                        ;
+; cycloneiii_ff         ; 3051                        ;
+;     ENA               ; 2916                        ;
+;     SCLR              ; 32                          ;
+;     plain             ; 103                         ;
+; cycloneiii_lcell_comb ; 13586                       ;
+;     arith             ; 3584                        ;
 ;         1 data inputs ; 2                           ;
-;         2 data inputs ; 490                         ;
-;         3 data inputs ; 3065                        ;
-;     normal            ; 9469                        ;
+;         2 data inputs ; 521                         ;
+;         3 data inputs ; 3061                        ;
+;     normal            ; 10002                       ;
 ;         0 data inputs ; 257                         ;
-;         1 data inputs ; 37                          ;
-;         2 data inputs ; 4248                        ;
-;         3 data inputs ; 254                         ;
-;         4 data inputs ; 4673                        ;
+;         1 data inputs ; 28                          ;
+;         2 data inputs ; 4295                        ;
+;         3 data inputs ; 164                         ;
+;         4 data inputs ; 5258                        ;
 ; cycloneiii_mac_mult   ; 11                          ;
 ; cycloneiii_mac_out    ; 11                          ;
-; cycloneiii_ram_block  ; 32                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 164.20                      ;
-; Average LUT depth     ; 96.72                       ;
+; Average LUT depth     ; 90.11                       ;
 +-----------------------+-----------------------------+
 
 
@@ -1302,7 +1183,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:43     ;
+; Top            ; 00:01:16     ;
 +----------------+--------------+
 
 
@@ -1312,11 +1193,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Tue Jun 11 22:44:25 2019
+    Info: Processing started: Wed Jun 12 15:25:33 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MIPS_FPGA -c MIPS_FPGA
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Warning (12125): Using design file mips_fpga.v, which is not specified as a design file for the current project, but contains definitions for 18 design units and 18 entities in project
+Warning (12125): Using design file mips_fpga.v, which is not specified as a design file for the current project, but contains definitions for 19 design units and 19 entities in project
     Info (12023): Found entity 1: ALU File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ALU.v Line: 9
     Info (12023): Found entity 2: Door_BNE_BEQ File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/AND.v Line: 1
     Info (12023): Found entity 3: ControleALU File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 9
@@ -1334,173 +1215,18 @@ Warning (12125): Using design file mips_fpga.v, which is not specified as a desi
     Info (12023): Found entity 15: Conversor_7Seg_Melhorado File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Conversor_7Seg.v Line: 1
     Info (12023): Found entity 16: Conversor_7Seg File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Conversor_7Seg.v Line: 109
     Info (12023): Found entity 17: Mem_Exibi File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_de_exibicao.v Line: 1
-    Info (12023): Found entity 18: MIPS_FPGA File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 20
+    Info (12023): Found entity 18: DivisorClk File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/DivisorClk.v Line: 1
+    Info (12023): Found entity 19: MIPS_FPGA File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 21
 Info (12127): Elaborating entity "MIPS_FPGA" for the top level hierarchy
-Warning (10034): Output port "LEDG[8]" at mips_fpga.v(63) has no driver File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 63
-Info (12128): Elaborating entity "PC" for hierarchy "PC:pc" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 124
-Info (12128): Elaborating entity "Somador4" for hierarchy "Somador4:Soma4" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 126
-Info (12128): Elaborating entity "Memoria_instrucoes" for hierarchy "Memoria_instrucoes:Inst_Mem" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 128
-Warning (10030): Net "I_Mem[21..31]" at Memoria_instrucoes.v(5) has no driver or initial value, using a default initial value '0' File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 5
-Info (10041): Inferred latch for "I_Mem[20][0]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][1]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][2]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][3]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][4]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][5]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][6]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][7]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][8]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][9]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][10]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][11]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][12]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][13]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][14]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][15]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][16]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][17]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][18]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][19]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][20]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][21]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][22]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][23]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][24]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][25]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][26]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][27]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][28]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][29]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][30]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[20][31]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][0]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][1]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][2]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][3]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][4]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][5]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][6]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][7]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][8]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][9]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][10]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][11]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][12]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][13]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][14]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][15]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][16]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][17]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][18]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][19]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][20]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][21]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][22]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][23]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][24]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][25]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][26]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][27]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][28]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][29]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][30]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[19][31]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][0]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][1]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][2]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][3]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][4]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][5]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][6]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][7]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][8]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][9]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][10]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][11]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][12]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][13]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][14]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][15]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][16]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][17]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][18]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][19]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][20]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][21]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][22]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][23]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][24]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][25]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][26]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][27]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][28]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][29]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][30]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[18][31]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][0]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][1]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][2]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][3]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][4]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][5]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][6]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][7]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][8]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][9]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][10]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][11]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][12]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][13]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][14]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][15]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][16]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][17]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][18]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][19]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][20]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][21]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][22]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][23]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][24]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][25]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][26]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][27]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][28]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][29]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][30]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[17][31]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][0]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][1]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][2]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][3]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][4]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][5]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][6]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][7]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][8]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][9]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][10]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][11]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][12]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][13]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][14]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][15]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][16]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][17]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][18]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][19]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][20]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][21]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][22]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][23]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][24]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][25]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][26]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][27]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][28]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][29]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][30]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (10041): Inferred latch for "I_Mem[16][31]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
+Warning (10034): Output port "LEDG[8..7]" at mips_fpga.v(64) has no driver File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 64
+Warning (10034): Output port "LEDG[5]" at mips_fpga.v(64) has no driver File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 64
+Warning (10034): Output port "LEDG[3..1]" at mips_fpga.v(64) has no driver File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 64
+Warning (10034): Output port "LEDR" at mips_fpga.v(65) has no driver File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+Info (12128): Elaborating entity "DivisorClk" for hierarchy "DivisorClk:clk_menor" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 127
+Info (12128): Elaborating entity "PC" for hierarchy "PC:pc" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 129
+Info (12128): Elaborating entity "Somador4" for hierarchy "Somador4:Soma4" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 131
+Info (12128): Elaborating entity "Memoria_instrucoes" for hierarchy "Memoria_instrucoes:Inst_Mem" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 133
+Warning (10030): Net "I_Mem[16..31]" at Memoria_instrucoes.v(5) has no driver or initial value, using a default initial value '0' File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 5
 Info (10041): Inferred latch for "I_Mem[15][0]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
 Info (10041): Inferred latch for "I_Mem[15][1]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
 Info (10041): Inferred latch for "I_Mem[15][2]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
@@ -2013,7 +1739,7 @@ Info (10041): Inferred latch for "I_Mem[0][28]" at Memoria_instrucoes.v(8) File:
 Info (10041): Inferred latch for "I_Mem[0][29]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
 Info (10041): Inferred latch for "I_Mem[0][30]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
 Info (10041): Inferred latch for "I_Mem[0][31]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (12128): Elaborating entity "Controller" for hierarchy "Controller:controll" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 130
+Info (12128): Elaborating entity "Controller" for hierarchy "Controller:controll" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 135
 Warning (10270): Verilog HDL Case Statement warning at Controller.v(7): incomplete case statement has no default case item File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 7
 Warning (10240): Verilog HDL Always Construct warning at Controller.v(6): inferring latch(es) for variable "RegDst", which holds its previous value in one or more paths through the always construct File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
 Warning (10240): Verilog HDL Always Construct warning at Controller.v(6): inferring latch(es) for variable "Branch", which holds its previous value in one or more paths through the always construct File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
@@ -2033,11 +1759,11 @@ Info (10041): Inferred latch for "MemRead" at Controller.v(6) File: D:/GitHub Cl
 Info (10041): Inferred latch for "Branch[0]" at Controller.v(6) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
 Info (10041): Inferred latch for "Branch[1]" at Controller.v(6) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
 Info (10041): Inferred latch for "RegDst" at Controller.v(6) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
-Info (12128): Elaborating entity "MUX_5b" for hierarchy "MUX_5b:mux5b_1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 132
-Info (12128): Elaborating entity "Registradores" for hierarchy "Registradores:Regs" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 134
-Info (12128): Elaborating entity "Ext_Sinal" for hierarchy "Ext_Sinal:Signal_Extenteder" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 136
-Info (12128): Elaborating entity "MUX_32b" for hierarchy "MUX_32b:mux32b_2" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 138
-Info (12128): Elaborating entity "ControleALU" for hierarchy "ControleALU:Control_ALU" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 140
+Info (12128): Elaborating entity "MUX_5b" for hierarchy "MUX_5b:mux5b_1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 137
+Info (12128): Elaborating entity "Registradores" for hierarchy "Registradores:Regs" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 139
+Info (12128): Elaborating entity "Ext_Sinal" for hierarchy "Ext_Sinal:Signal_Extenteder" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 141
+Info (12128): Elaborating entity "MUX_32b" for hierarchy "MUX_32b:mux32b_2" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 143
+Info (12128): Elaborating entity "ControleALU" for hierarchy "ControleALU:Control_ALU" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 145
 Warning (10270): Verilog HDL Case Statement warning at ControleALU.v(23): incomplete case statement has no default case item File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 23
 Warning (10270): Verilog HDL Case Statement warning at ControleALU.v(15): incomplete case statement has no default case item File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 15
 Warning (10240): Verilog HDL Always Construct warning at ControleALU.v(14): inferring latch(es) for variable "Controle_ALU", which holds its previous value in one or more paths through the always construct File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 14
@@ -2045,32 +1771,15 @@ Info (10041): Inferred latch for "Controle_ALU[0]" at ControleALU.v(14) File: D:
 Info (10041): Inferred latch for "Controle_ALU[1]" at ControleALU.v(14) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 14
 Info (10041): Inferred latch for "Controle_ALU[2]" at ControleALU.v(14) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 14
 Info (10041): Inferred latch for "Controle_ALU[3]" at ControleALU.v(14) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 14
-Info (12128): Elaborating entity "ALU" for hierarchy "ALU:ALU_1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 142
-Info (12128): Elaborating entity "Data_Memory" for hierarchy "Data_Memory:Data_Mem" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 144
-Info (12128): Elaborating entity "LeftShift2" for hierarchy "LeftShift2:Left_shift" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 148
-Info (12128): Elaborating entity "Somador" for hierarchy "Somador:ADD_1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 150
-Info (12128): Elaborating entity "Door_BNE_BEQ" for hierarchy "Door_BNE_BEQ:Door1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 152
+Info (12128): Elaborating entity "ALU" for hierarchy "ALU:ALU_1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 147
+Info (12128): Elaborating entity "Data_Memory" for hierarchy "Data_Memory:Data_Mem" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 149
+Info (12128): Elaborating entity "LeftShift2" for hierarchy "LeftShift2:Left_shift" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 153
+Info (12128): Elaborating entity "Somador" for hierarchy "Somador:ADD_1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 155
+Info (12128): Elaborating entity "Door_BNE_BEQ" for hierarchy "Door_BNE_BEQ:Door1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 157
 Warning (10230): Verilog HDL assignment warning at AND.v(8): truncated value with size 32 to match size of target (1) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/AND.v Line: 8
 Warning (10230): Verilog HDL assignment warning at AND.v(9): truncated value with size 32 to match size of target (1) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/AND.v Line: 9
-Info (12128): Elaborating entity "Mem_Exibi" for hierarchy "Mem_Exibi:exibe" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 156
-Info (12128): Elaborating entity "Conversor_7Seg_Melhorado" for hierarchy "Conversor_7Seg_Melhorado:ConvMe" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 160
-Warning (276027): Inferred dual-clock RAM node "Mem_Exibi:exibe|Mem_rtl_0" from synchronous design logic.  The read-during-write behavior of a dual-clock RAM is undefined and may not match the behavior of the original design.
-Info (19000): Inferred 1 megafunctions from design logic
-    Info (276029): Inferred altsyncram megafunction from the following design logic: "Mem_Exibi:exibe|Mem_rtl_0" 
-        Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
-        Info (286033): Parameter WIDTH_A set to 32
-        Info (286033): Parameter WIDTHAD_A set to 5
-        Info (286033): Parameter NUMWORDS_A set to 26
-        Info (286033): Parameter WIDTH_B set to 32
-        Info (286033): Parameter WIDTHAD_B set to 5
-        Info (286033): Parameter NUMWORDS_B set to 26
-        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
-        Info (286033): Parameter OUTDATA_REG_B set to UNREGISTERED
-        Info (286033): Parameter ADDRESS_ACLR_B set to NONE
-        Info (286033): Parameter OUTDATA_ACLR_B set to NONE
-        Info (286033): Parameter ADDRESS_REG_B set to CLOCK1
-        Info (286033): Parameter INDATA_ACLR_A set to NONE
-        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+Info (12128): Elaborating entity "Mem_Exibi" for hierarchy "Mem_Exibi:exibe" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 161
+Info (12128): Elaborating entity "Conversor_7Seg_Melhorado" for hierarchy "Conversor_7Seg_Melhorado:ConvMe" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 163
 Info (278001): Inferred 20 megafunctions from design logic
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Conversor_7Seg_Melhorado:ConvMe|Mod0" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Conversor_7Seg.v Line: 5
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Conversor_7Seg_Melhorado:ConvMe|Div0" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Conversor_7Seg.v Line: 6
@@ -2092,24 +1801,6 @@ Info (278001): Inferred 20 megafunctions from design logic
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Conversor_7Seg_Melhorado:ConvMe|Mod6" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Conversor_7Seg.v Line: 11
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Conversor_7Seg_Melhorado:ConvMe|Mult4" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Conversor_7Seg.v Line: 12
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Conversor_7Seg_Melhorado:ConvMe|Mod7" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Conversor_7Seg.v Line: 12
-Info (12130): Elaborated megafunction instantiation "Mem_Exibi:exibe|altsyncram:Mem_rtl_0"
-Info (12133): Instantiated megafunction "Mem_Exibi:exibe|altsyncram:Mem_rtl_0" with the following parameter:
-    Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
-    Info (12134): Parameter "WIDTH_A" = "32"
-    Info (12134): Parameter "WIDTHAD_A" = "5"
-    Info (12134): Parameter "NUMWORDS_A" = "26"
-    Info (12134): Parameter "WIDTH_B" = "32"
-    Info (12134): Parameter "WIDTHAD_B" = "5"
-    Info (12134): Parameter "NUMWORDS_B" = "26"
-    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
-    Info (12134): Parameter "OUTDATA_REG_B" = "UNREGISTERED"
-    Info (12134): Parameter "ADDRESS_ACLR_B" = "NONE"
-    Info (12134): Parameter "OUTDATA_ACLR_B" = "NONE"
-    Info (12134): Parameter "ADDRESS_REG_B" = "CLOCK1"
-    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
-    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_qvc1.tdf
-    Info (12023): Found entity 1: altsyncram_qvc1 File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/db/altsyncram_qvc1.tdf Line: 28
 Info (12130): Elaborated megafunction instantiation "Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod0" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Conversor_7Seg.v Line: 5
 Info (12133): Instantiated megafunction "Conversor_7Seg_Melhorado:ConvMe|lpm_divide:Mod0" with the following parameter: File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Conversor_7Seg.v Line: 5
     Info (12134): Parameter "LPM_WIDTHN" = "32"
@@ -2338,75 +2029,89 @@ Warning (14284): Synthesized away the following node(s):
 Info (13014): Ignored 241 buffer(s)
     Info (13019): Ignored 241 SOFT buffer(s)
 Info (13025): Duplicate LATCH primitives merged into single LATCH primitive
+    Info (13026): Duplicate LATCH primitive "Controller:controll|MemtoReg" merged with LATCH primitive "Controller:controll|ALUSrc" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 3
     Info (13026): Duplicate LATCH primitive "Controller:controll|RegDst" merged with LATCH primitive "Controller:controll|ALUOp[1]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 3
-    Info (13026): Duplicate LATCH primitive "Controller:controll|Branch[0]" merged with LATCH primitive "Controller:controll|ALUOp[0]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
-Warning (13012): Latch ControleALU:Control_ALU|Controle_ALU[0] has unsafe behavior File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 14
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Controller:controll|ALUOp[1] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
 Warning (13012): Latch ControleALU:Control_ALU|Controle_ALU[3] has unsafe behavior File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 14
     Warning (13013): Ports D and ENA on the latch are fed by the same signal Controller:controll|ALUOp[1] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
+Warning (13012): Latch ControleALU:Control_ALU|Controle_ALU[0] has unsafe behavior File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Controller:controll|ALUOp[1] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
 Warning (13012): Latch ControleALU:Control_ALU|Controle_ALU[1] has unsafe behavior File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 14
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal Controller:controll|ALUOp[0] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Controller:controll|ALUOp[1] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
 Warning (13012): Latch Controller:controll|ALUSrc has unsafe behavior File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 3
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal PC:pc|saida[6] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/PC.v Line: 5
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PC:pc|saida[3] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/PC.v Line: 5
 Warning (13012): Latch ControleALU:Control_ALU|Controle_ALU[2] has unsafe behavior File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 14
     Warning (13013): Ports D and ENA on the latch are fed by the same signal Controller:controll|ALUOp[1] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
 Warning (13012): Latch Controller:controll|ALUOp[1] has unsafe behavior File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal PC:pc|saida[2] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/PC.v Line: 5
-Warning (13012): Latch Controller:controll|ALUOp[0] has unsafe behavior File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal PC:pc|saida[6] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/PC.v Line: 5
-Warning (13012): Latch Controller:controll|MemtoReg has unsafe behavior File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 3
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal PC:pc|saida[2] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/PC.v Line: 5
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PC:pc|saida[3] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/PC.v Line: 5
 Warning (13012): Latch Controller:controll|RegWrite has unsafe behavior File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 3
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PC:pc|saida[3] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/PC.v Line: 5
-Warning (13012): Latch Controller:controll|Branch[1] has unsafe behavior File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal PC:pc|saida[6] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/PC.v Line: 5
 Warning (13012): Latch Controller:controll|MemWrite has unsafe behavior File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 3
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal PC:pc|saida[6] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/PC.v Line: 5
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PC:pc|saida[3] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/PC.v Line: 5
 Warning (13012): Latch Controller:controll|MemRead has unsafe behavior File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 3
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PC:pc|saida[3] File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/PC.v Line: 5
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LEDG[0]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 63
-    Warning (13410): Pin "LEDG[1]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 63
-    Warning (13410): Pin "LEDG[8]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 63
+    Warning (13410): Pin "LEDG[1]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 64
+    Warning (13410): Pin "LEDG[2]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 64
+    Warning (13410): Pin "LEDG[3]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 64
+    Warning (13410): Pin "LEDG[5]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 64
+    Warning (13410): Pin "LEDG[7]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 64
+    Warning (13410): Pin "LEDG[8]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 64
+    Warning (13410): Pin "LEDR[0]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[1]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[2]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[3]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[4]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[5]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[6]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[7]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[8]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[9]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[10]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[11]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[12]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[13]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[14]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[15]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[16]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
+    Warning (13410): Pin "LEDR[17]" is stuck at GND File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 25 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/MIPS_FPGA.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 22 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "CLOCK_50" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 58
-    Warning (15610): No output dependent on input pin "CLOCK2_50" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 59
-    Warning (15610): No output dependent on input pin "CLOCK3_50" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 60
-    Warning (15610): No output dependent on input pin "KEY[1]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 67
-    Warning (15610): No output dependent on input pin "SW[0]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[1]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[2]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[3]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[4]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[5]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[6]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[7]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[8]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[9]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[10]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[11]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[12]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[13]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[14]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[15]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[16]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-    Warning (15610): No output dependent on input pin "SW[17]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 70
-Info (21057): Implemented 15252 device resources after synthesis - the final resource count might be different
+    Warning (15610): No output dependent on input pin "CLOCK2_50" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 60
+    Warning (15610): No output dependent on input pin "CLOCK3_50" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 61
+    Warning (15610): No output dependent on input pin "KEY[0]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 68
+    Warning (15610): No output dependent on input pin "KEY[1]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 68
+    Warning (15610): No output dependent on input pin "SW[0]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[1]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[2]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[3]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[4]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[5]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[6]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[7]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[8]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[9]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[10]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[11]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[12]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[13]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[14]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[15]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[16]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+    Warning (15610): No output dependent on input pin "SW[17]" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 71
+Info (21057): Implemented 16582 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 25 input pins
     Info (21059): Implemented 83 output pins
-    Info (21061): Implemented 15090 logic cells
-    Info (21064): Implemented 32 RAM segments
+    Info (21061): Implemented 16452 logic cells
     Info (21062): Implemented 22 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 74 warnings
-    Info: Peak virtual memory: 4889 megabytes
-    Info: Processing ended: Tue Jun 11 22:45:24 2019
-    Info: Elapsed time: 00:00:59
-    Info: Total CPU time (on all processors): 00:01:04
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 91 warnings
+    Info: Peak virtual memory: 4964 megabytes
+    Info: Processing ended: Wed Jun 12 15:27:13 2019
+    Info: Elapsed time: 00:01:40
+    Info: Total CPU time (on all processors): 00:02:07
 
 
 +------------------------------------------+

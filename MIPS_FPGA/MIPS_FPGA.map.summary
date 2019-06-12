@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Tue Jun 11 22:45:24 2019
+Analysis & Synthesis Status : Successful - Wed Jun 12 15:27:12 2019
 Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 Revision Name : MIPS_FPGA
 Top-level Entity Name : MIPS_FPGA
 Family : Cyclone IV E
-Total logic elements : 14,979
-    Total combinational functions : 13,009
-    Dedicated logic registers : 2,186
-Total registers : 2186
+Total logic elements : 16,314
+    Total combinational functions : 13,576
+    Dedicated logic registers : 3,051
+Total registers : 3051
 Total pins : 108
 Total virtual pins : 0
-Total memory bits : 832
+Total memory bits : 0
 Embedded Multiplier 9-bit elements : 22
 Total PLLs : 0
