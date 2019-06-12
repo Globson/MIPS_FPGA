@@ -2,7 +2,7 @@ module Mem_Exibi(resultadoALU,Clk,proximo,saida,reset);
   input [31:0] resultadoALU;
   input Clk,proximo,reset;
   output reg [31:0]saida;
-  reg [31:0]Mem[0:25];
+  reg [31:0]Mem[0:25];  //Setar quantidade de instruçoes
   integer i = 26;
   integer j = 0;
 

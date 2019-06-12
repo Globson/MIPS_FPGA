@@ -43,14 +43,4 @@ always @ (negedge Clk) begin
   end
 end
 
-
- /*always @ (negedge Clk) begin
-  if(MemWrite == 1) begin
-    MemData[Address] <= WriteData;
-    end
-
- else if(MemRead == 1) begin
-     ReadData <= MemData[Address];
-    end
- end*/
 endmodule //Data_memory2
