@@ -115,7 +115,6 @@ wire Door_Out;
 wire [31:0] NextPC;
 wire [31:0] saida_Memoria_Exibe;
 
-//assign LEDG[5:0] = PCOut[5:0];
 assign LEDG[4] = Prox;
 assign LEDG[0] = clk;
 assign LEDG[6] = Reset;
