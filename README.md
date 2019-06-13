@@ -1,11 +1,12 @@
 # MIPS FPGA
 O trabalho a seguir apresenta uma implementação do caminho de dados MIPS em um FPGA Altera DE2-115.
+
 ![](https://i.imgur.com/zGtj9kI.png)
 ![](https://i.imgur.com/PNfVSf6.jpg)
 
 ## Descrição
 
-O conteudo apresentado é um complemento do trabalho apresentado no [repositório](https://github.com/Globson/MIPS_32bit_Without_Pipeline)
+O conteudo apresentado é um complemento do trabalho apresentado no [repositório](https://github.com/Globson/MIPS_32bit_Without_Pipeline) Caminho de dados MIPS.
 
 ## Requisitos
 
