@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MIPS_FPGA
-Wed Jun 12 15:27:13 2019
+Thu Jun 13 02:46:53 2019
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -71,7 +71,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Jun 12 15:27:12 2019       ;
+; Analysis & Synthesis Status        ; Successful - Thu Jun 13 02:46:53 2019       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; MIPS_FPGA                                   ;
 ; Top-level Entity Name              ; MIPS_FPGA                                   ;
@@ -1183,7 +1183,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:01:16     ;
+; Top            ; 00:00:44     ;
 +----------------+--------------+
 
 
@@ -1193,11 +1193,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Wed Jun 12 15:25:33 2019
+    Info: Processing started: Thu Jun 13 02:45:54 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MIPS_FPGA -c MIPS_FPGA
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Warning (12125): Using design file mips_fpga.v, which is not specified as a design file for the current project, but contains definitions for 19 design units and 19 entities in project
+Warning (12125): Using design file mips_fpga.v, which is not specified as a design file for the current project, but contains definitions for 18 design units and 18 entities in project
     Info (12023): Found entity 1: ALU File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ALU.v Line: 9
     Info (12023): Found entity 2: Door_BNE_BEQ File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/AND.v Line: 1
     Info (12023): Found entity 3: ControleALU File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 9
@@ -1213,19 +1213,18 @@ Warning (12125): Using design file mips_fpga.v, which is not specified as a desi
     Info (12023): Found entity 13: Somador File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Somador.v Line: 1
     Info (12023): Found entity 14: Somador4 File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Somador4.v Line: 1
     Info (12023): Found entity 15: Conversor_7Seg_Melhorado File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Conversor_7Seg.v Line: 1
-    Info (12023): Found entity 16: Conversor_7Seg File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Conversor_7Seg.v Line: 109
-    Info (12023): Found entity 17: Mem_Exibi File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_de_exibicao.v Line: 1
-    Info (12023): Found entity 18: DivisorClk File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/DivisorClk.v Line: 1
-    Info (12023): Found entity 19: MIPS_FPGA File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 21
+    Info (12023): Found entity 16: Mem_Exibi File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_de_exibicao.v Line: 1
+    Info (12023): Found entity 17: DivisorClk File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/DivisorClk.v Line: 1
+    Info (12023): Found entity 18: MIPS_FPGA File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 21
 Info (12127): Elaborating entity "MIPS_FPGA" for the top level hierarchy
 Warning (10034): Output port "LEDG[8..7]" at mips_fpga.v(64) has no driver File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 64
 Warning (10034): Output port "LEDG[5]" at mips_fpga.v(64) has no driver File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 64
 Warning (10034): Output port "LEDG[3..1]" at mips_fpga.v(64) has no driver File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 64
 Warning (10034): Output port "LEDR" at mips_fpga.v(65) has no driver File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 65
-Info (12128): Elaborating entity "DivisorClk" for hierarchy "DivisorClk:clk_menor" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 127
-Info (12128): Elaborating entity "PC" for hierarchy "PC:pc" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 129
-Info (12128): Elaborating entity "Somador4" for hierarchy "Somador4:Soma4" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 131
-Info (12128): Elaborating entity "Memoria_instrucoes" for hierarchy "Memoria_instrucoes:Inst_Mem" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 133
+Info (12128): Elaborating entity "DivisorClk" for hierarchy "DivisorClk:clk_menor" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 126
+Info (12128): Elaborating entity "PC" for hierarchy "PC:pc" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 128
+Info (12128): Elaborating entity "Somador4" for hierarchy "Somador4:Soma4" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 130
+Info (12128): Elaborating entity "Memoria_instrucoes" for hierarchy "Memoria_instrucoes:Inst_Mem" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 132
 Warning (10030): Net "I_Mem[16..31]" at Memoria_instrucoes.v(5) has no driver or initial value, using a default initial value '0' File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 5
 Info (10041): Inferred latch for "I_Mem[15][0]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
 Info (10041): Inferred latch for "I_Mem[15][1]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
@@ -1739,7 +1738,7 @@ Info (10041): Inferred latch for "I_Mem[0][28]" at Memoria_instrucoes.v(8) File:
 Info (10041): Inferred latch for "I_Mem[0][29]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
 Info (10041): Inferred latch for "I_Mem[0][30]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
 Info (10041): Inferred latch for "I_Mem[0][31]" at Memoria_instrucoes.v(8) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Memoria_instrucoes.v Line: 8
-Info (12128): Elaborating entity "Controller" for hierarchy "Controller:controll" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 135
+Info (12128): Elaborating entity "Controller" for hierarchy "Controller:controll" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 134
 Warning (10270): Verilog HDL Case Statement warning at Controller.v(7): incomplete case statement has no default case item File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 7
 Warning (10240): Verilog HDL Always Construct warning at Controller.v(6): inferring latch(es) for variable "RegDst", which holds its previous value in one or more paths through the always construct File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
 Warning (10240): Verilog HDL Always Construct warning at Controller.v(6): inferring latch(es) for variable "Branch", which holds its previous value in one or more paths through the always construct File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
@@ -1759,11 +1758,11 @@ Info (10041): Inferred latch for "MemRead" at Controller.v(6) File: D:/GitHub Cl
 Info (10041): Inferred latch for "Branch[0]" at Controller.v(6) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
 Info (10041): Inferred latch for "Branch[1]" at Controller.v(6) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
 Info (10041): Inferred latch for "RegDst" at Controller.v(6) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Controller.v Line: 6
-Info (12128): Elaborating entity "MUX_5b" for hierarchy "MUX_5b:mux5b_1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 137
-Info (12128): Elaborating entity "Registradores" for hierarchy "Registradores:Regs" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 139
-Info (12128): Elaborating entity "Ext_Sinal" for hierarchy "Ext_Sinal:Signal_Extenteder" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 141
-Info (12128): Elaborating entity "MUX_32b" for hierarchy "MUX_32b:mux32b_2" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 143
-Info (12128): Elaborating entity "ControleALU" for hierarchy "ControleALU:Control_ALU" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 145
+Info (12128): Elaborating entity "MUX_5b" for hierarchy "MUX_5b:mux5b_1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 136
+Info (12128): Elaborating entity "Registradores" for hierarchy "Registradores:Regs" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 138
+Info (12128): Elaborating entity "Ext_Sinal" for hierarchy "Ext_Sinal:Signal_Extenteder" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 140
+Info (12128): Elaborating entity "MUX_32b" for hierarchy "MUX_32b:mux32b_2" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 142
+Info (12128): Elaborating entity "ControleALU" for hierarchy "ControleALU:Control_ALU" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 144
 Warning (10270): Verilog HDL Case Statement warning at ControleALU.v(23): incomplete case statement has no default case item File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 23
 Warning (10270): Verilog HDL Case Statement warning at ControleALU.v(15): incomplete case statement has no default case item File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 15
 Warning (10240): Verilog HDL Always Construct warning at ControleALU.v(14): inferring latch(es) for variable "Controle_ALU", which holds its previous value in one or more paths through the always construct File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 14
@@ -1771,15 +1770,15 @@ Info (10041): Inferred latch for "Controle_ALU[0]" at ControleALU.v(14) File: D:
 Info (10041): Inferred latch for "Controle_ALU[1]" at ControleALU.v(14) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 14
 Info (10041): Inferred latch for "Controle_ALU[2]" at ControleALU.v(14) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 14
 Info (10041): Inferred latch for "Controle_ALU[3]" at ControleALU.v(14) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/ControleALU.v Line: 14
-Info (12128): Elaborating entity "ALU" for hierarchy "ALU:ALU_1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 147
-Info (12128): Elaborating entity "Data_Memory" for hierarchy "Data_Memory:Data_Mem" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 149
-Info (12128): Elaborating entity "LeftShift2" for hierarchy "LeftShift2:Left_shift" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 153
-Info (12128): Elaborating entity "Somador" for hierarchy "Somador:ADD_1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 155
-Info (12128): Elaborating entity "Door_BNE_BEQ" for hierarchy "Door_BNE_BEQ:Door1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 157
+Info (12128): Elaborating entity "ALU" for hierarchy "ALU:ALU_1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 146
+Info (12128): Elaborating entity "Data_Memory" for hierarchy "Data_Memory:Data_Mem" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 148
+Info (12128): Elaborating entity "LeftShift2" for hierarchy "LeftShift2:Left_shift" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 152
+Info (12128): Elaborating entity "Somador" for hierarchy "Somador:ADD_1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 154
+Info (12128): Elaborating entity "Door_BNE_BEQ" for hierarchy "Door_BNE_BEQ:Door1" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 156
 Warning (10230): Verilog HDL assignment warning at AND.v(8): truncated value with size 32 to match size of target (1) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/AND.v Line: 8
 Warning (10230): Verilog HDL assignment warning at AND.v(9): truncated value with size 32 to match size of target (1) File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/AND.v Line: 9
-Info (12128): Elaborating entity "Mem_Exibi" for hierarchy "Mem_Exibi:exibe" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 161
-Info (12128): Elaborating entity "Conversor_7Seg_Melhorado" for hierarchy "Conversor_7Seg_Melhorado:ConvMe" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 163
+Info (12128): Elaborating entity "Mem_Exibi" for hierarchy "Mem_Exibi:exibe" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 160
+Info (12128): Elaborating entity "Conversor_7Seg_Melhorado" for hierarchy "Conversor_7Seg_Melhorado:ConvMe" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/mips_fpga.v Line: 162
 Info (278001): Inferred 20 megafunctions from design logic
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Conversor_7Seg_Melhorado:ConvMe|Mod0" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Conversor_7Seg.v Line: 5
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Conversor_7Seg_Melhorado:ConvMe|Div0" File: D:/GitHub Clones/OC1/MIPS_FPGA/MIPS_FPGA/Modulos/Conversor_7Seg.v Line: 6
@@ -2108,10 +2107,10 @@ Info (21057): Implemented 16582 device resources after synthesis - the final res
     Info (21061): Implemented 16452 logic cells
     Info (21062): Implemented 22 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 91 warnings
-    Info: Peak virtual memory: 4964 megabytes
-    Info: Processing ended: Wed Jun 12 15:27:13 2019
-    Info: Elapsed time: 00:01:40
-    Info: Total CPU time (on all processors): 00:02:07
+    Info: Peak virtual memory: 4965 megabytes
+    Info: Processing ended: Thu Jun 13 02:46:53 2019
+    Info: Elapsed time: 00:00:59
+    Info: Total CPU time (on all processors): 00:01:16
 
 
 +------------------------------------------+
