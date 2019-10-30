@@ -24,4 +24,3 @@ Veja [LICENSE](https://github.com/Globson/MIPS_FPGA/blob/master/LICENSE) para ma
 
 * **Samuel Sena** - [Globson](https://github.com/Globson)
 * **Pablo Ferreira**  - [PabloVizard](https://github.com/PabloVizard)
-* **Arthur De Bellis** - [ArthurDeBellis](https://github.com/ArthurDeBellis)
